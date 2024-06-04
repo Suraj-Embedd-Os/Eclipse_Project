@@ -1,76 +1,61 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <zip.h>
-#include <libxml/parser.h>
-#include <libxml/tree.h>
+#include <string.h>
 
-void print_xml_content(const char *filename) {
-    xmlDoc *doc = xmlReadFile(filename, NULL, 0);
-    if (doc == NULL) {
-        fprintf(stderr, "Failed to parse %s\n", filename);
-        return;
-    }
-    xmlNode *root_element = xmlDocGetRootElement(doc);
-    xmlNode *node = root_element;
-    while (node) {
-        if (node->type == XML_ELEMENT_NODE) {
-            printf("node type: Element, name: %s\n", node->name);
-        }
-        node = node->next;
-    }
-    xmlFreeDoc(doc);
-}
+#define BUF_SIZE  256  // Increase buffer size to handle larger fields
+
+struct nifty_filed {
+    char name[BUF_SIZE];
+    char nse_code[BUF_SIZE];
+    char industries[BUF_SIZE];
+    char cmp_to_iv[BUF_SIZE];
+    char price_to_book[BUF_SIZE];
+    char market_capitalizations[BUF_SIZE];
+    char pe[BUF_SIZE];
+    char industry_pe[BUF_SIZE];
+    char peg[BUF_SIZE];
+    char current_price[BUF_SIZE];
+};
+
+const char *file_name = "./nifty-500.csv";
 
 int main(int argc, char *argv[]) {
-    if (argc != 2) {
-        fprintf(stderr, "Usage: %s <filename.ods>\n", argv[0]);
-        return 1;
-    }
+    FILE *fp = fopen(file_name, "r");
 
-    const char *ods_filename = argv[1];
-    int err;
-    struct zip *za = zip_open(ods_filename, 0, &err);
-    if (za == NULL) {
-        fprintf(stderr, "Error opening ZIP archive: %d\n", err);
-        return 1;
-    }
-
-    struct zip_stat st;
-    zip_stat_init(&st);
-    zip_stat(za, "content.xml", 0, &st);
-
-    char *contents = malloc(st.size);
-    if (contents == NULL) {
-        fprintf(stderr, "Failed to allocate memory\n");
-        zip_close(za);
-        return 1;
-    }
-
-    struct zip_file *zf = zip_fopen(za, "content.xml", 0);
-    if (zf == NULL) {
-        fprintf(stderr, "Failed to open content.xml\n");
-        free(contents);
-        zip_close(za);
-        return 1;
-    }
-
-    zip_fread(zf, contents, st.size);
-    contents[st.size] = '\0';
-
-    zip_fclose(zf);
-    zip_close(za);
-
-    FILE *fp = fopen("content.xml", "w");
     if (fp == NULL) {
-        fprintf(stderr, "Failed to create temporary content.xml file\n");
-        free(contents);
-        return 1;
+        perror("Unable to open file");
+        return -1;
     }
-    fwrite(contents, 1, st.size, fp);
+
+    char buff[1024];
+    struct nifty_filed nifty;
+
+    // Skip the header line if your CSV has one
+    if (fgets(buff, sizeof(buff), fp) == NULL) {
+        perror("Unable to read the header line");
+        fclose(fp);
+        return -1;
+    }
+
+    while (fgets(buff, sizeof(buff), fp) != NULL) {
+        // Initialize all buffers to zero
+        memset(&nifty, 0, sizeof(nifty));
+
+        // Adjust sscanf format to match the CSV fields correctly
+        int fields = sscanf(buff, " %[^,], %[^,], %[^,], %[^,], %[^,], %[^,], %[^,], %[^,], %[^,], %[^,], %[^,\n]",
+                            nifty.name, nifty.nse_code, nifty.industries, nifty.current_price, nifty.cmp_to_iv,
+                            nifty.price_to_book, nifty.market_capitalizations, nifty.pe, nifty.industry_pe, nifty.peg);
+
+        // Print fields only if the correct number of fields are read
+        if (fields == 11) {
+            printf("Name: %s\nNSE Code: %s\nIndustries: %s\nCurrent Price: %s\nCMP to IV: %s\nPrice to Book: %s\nMarket Capitalizations: %s\nPE: %s\nIndustry PE: %s\nPEG: %s\n\n",
+                   nifty.name, nifty.nse_code, nifty.industries, nifty.current_price, nifty.cmp_to_iv,
+                   nifty.price_to_book, nifty.market_capitalizations, nifty.pe, nifty.industry_pe, nifty.peg);
+        } else {
+            printf("Error parsing line: %s\n", buff);
+        }
+    }
+
     fclose(fp);
-
-    print_xml_content("content.xml");
-
-    free(contents);
     return 0;
 }

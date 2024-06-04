@@ -1,0 +1,502 @@
+Name,NSE Code,Industry,Current Price,CMP to IV,Price to book value,Intrinsic Value,Market Capitalization,Price to Earning,Industry PE,Historical PE 3Years,DuPont Model,PEG Ratio
+Carborundum Uni.,CARBORUNIV,Abrasives And Grinding Wheels,1700,6.11,10.35,278.26,32343.79,70.17,69.24,48.76,21.09,5.29
+Grindwell Norton,GRINDWELL,Abrasives And Grinding Wheels,2337.6,5.7,12.62,410.02,25881.89,67.45,69.24,64.21,25.84,3.43
+Blue Star,BLUESTARCO,Air-conditioners,1520.6,3.33,12.01,456.68,31265.82,75.47,75.91,58.63,23.18,4.44
+Voltas,VOLTAS,Air-conditioners,1343.35,8.64,7.61,155.47,44449.33,179.16,75.91,72.07,10.28,-13.15
+Hindalco Inds.,HINDALCO,Aluminium and Aluminium Products,671.75,0.94,1.51,718.43,150956.78,16.11,25.24,10.96,34.15,1.01
+Natl. Aluminium,NATIONALUM,Aluminium and Aluminium Products,191,1.73,2.57,110.37,35079.66,22.33,25.24,8.92,34.48,1.35
+Amara Raja Ener.,ARE&M,Auto Ancillaries,1125,1.33,3.37,846.37,20590.3,25.18,33.31,16.48,23.16,2.63
+Bombay Burmah,BBTC,Auto Ancillaries,1542.75,1.05,2.35,1474.98,10764.06,15.1,33.31,18.62,38.14,5.35
+Bosch,BOSCHLTD,Auto Ancillaries,30720,4.15,7.86,7398.09,90604.46,53.8,33.31,38.95,16.8,-1076
+Craftsman Auto,CRAFTSMAN,Auto Ancillaries,4315.95,1.14,5.5,3794.75,9118.92,29.97,33.31,31.44,57.96,1.17
+Endurance Tech.,ENDURANCE,Auto Ancillaries,2183,2.41,6.17,905.09,30706.66,45.09,33.31,41.29,24.21,7.23
+Exide Inds.,EXIDEIND,Auto Ancillaries,464.15,2.29,3.08,202.61,39452.75,45,33.31,20.55,13.8,17.58
+HBL Power System,HBLPOWER,Auto Ancillaries,534,10.04,13.92,53.19,14802.2,62.43,33.31,36.97,16.26,2.91
+JBM Auto,JBMA,Auto Ancillaries,1906.05,7.12,19.35,267.72,22538.56,126.09,33.31,48.9,44.21,9.91
+Minda Corp,MINDACORP,Auto Ancillaries,416.2,3.94,4.99,105.67,9950.52,43.74,33.31,30.84,25.35,5.76
+Motherson Wiring,MSUMI,Auto Ancillaries,68.3,1.73,18.05,39.37,30196.21,47.29,33.31,53.05,55,
+Samvardh. Mothe.,MOTHERSON,Auto Ancillaries,137.3,3.14,4.12,43.73,93040.35,57.91,33.31,50.2,25.85,-32.9
+Sona BLW Precis.,SONACOMS,Auto Ancillaries,628.3,3.27,14.33,192.32,36846.56,75,33.31,79.14,28.88,2.01
+Sundram Fasten.,SUNDRMFAST,Auto Ancillaries,1159.85,4.29,7.11,270.24,24371.74,46.69,33.31,43.36,25.07,17.75
+Uno Minda,UNOMINDA,Auto Ancillaries,761.9,2.56,9.85,297.85,43736.02,56.48,33.31,55.53,28.72,3.12
+Varroc Engineer,VARROC,Auto Ancillaries,570.1,2.53,5.77,225.4,8710.37,15.95,33.31,51.57,40.24,2.99
+ZF Commercial,ZFCVINDIA,Auto Ancillaries,13309.55,4.67,9.73,2847.32,25234.9,62.3,33.31,84.46,14.17,14.87
+Ashok Leyland,ASHOKLEY,Automobiles - LCVs / HCVs,212.8,2.93,7.06,72.63,62485.06,26.52,28.9,40.2,51.42,-3.66
+Olectra Greentec,OLECTRA,Automobiles - LCVs / HCVs,1809.3,7.18,16.29,251.82,14850.89,193.21,28.9,145.81,16.26,4.15
+Tata Motors,TATAMOTORS,Automobiles - LCVs / HCVs,961,1.49,3.73,644.4,352339.23,10.97,28.9,19.92,47.34,0.12
+Tata Motors-DVR,TATAMTRDVR,Automobiles - LCVs / HCVs,647,,,,,,,,,
+Eicher Motors,EICHERMOT,Automobiles - Motorcycles / Mopeds,4830,1.94,7.33,2484.76,132248.2,33.1,60.35,39.56,21.77,2.61
+Hero Motocorp,HEROMOTOCO,Automobiles - Motorcycles / Mopeds,5114.95,2.43,5.77,2101.8,102263.75,26.47,60.35,20.37,25.55,9.22
+TVS Motor Co.,TVSMOTOR,Automobiles - Motorcycles / Mopeds,2173.9,4.08,15.26,532.24,103281.94,61.26,60.35,44.92,72.35,3.22
+M & M,M&M,Automobiles - Passenger Cars,2596.7,2.21,4.81,1174.32,322907.21,28.71,29.65,20.65,35.1,1.71
+Maruti Suzuki,MARUTI,Automobiles - Passenger Cars,12935,1.7,4.72,7588.02,406679.71,30.13,29.65,41.7,15.58,1.7
+Bajaj Auto,BAJAJ-AUTO,Automobiles - Scooters And 3 - Wheelers,8959.2,2.33,8.62,3848.82,250122.74,32.46,122.36,20.16,27.45,3.05
+Escorts Kubota,ESCORTS,Automobiles - Tractors,3812.1,3.16,4.64,1208.07,42123,40.23,32.3,36.71,8.8,2.33
+AU Small Finance,AUBANK,Banks - Private Sector,618.3,1.51,3.8,409.43,45923.13,28.82,12.22,31.64,57.66,0.87
+Axis Bank,AXISBANK,Banks - Private Sector,1162.2,1.35,2.71,860.5,358822.47,13.57,12.22,14.55,53.5,0.35
+Bandhan Bank,BANDHANBNK,Banks - Private Sector,186.95,0.96,1.52,194.9,30117,13.49,12.22,17.47,43.26,5
+CSB Bank,CSBBANK,Banks - Private Sector,332.15,0.94,1.82,353.4,5762.3,10.13,12.22,10.15,56.75,0.27
+City Union Bank,CUB,Banks - Private Sector,143.95,0.97,1.42,148.61,10661.97,10.5,12.22,13.56,45.34,1.26
+Equitas Sma. Fin,EQUITASBNK,Banks - Private Sector,95.55,0.91,2.08,105.32,10846.34,13.54,12.22,16.94,46.94,0.44
+Federal Bank,FEDERALBNK,Banks - Private Sector,162.5,0.79,1.57,204.88,39586.39,10.19,12.22,10.02,73.33,0.42
+HDFC Bank,HDFCBANK,Banks - Private Sector,1487.6,1.44,2.81,1030.67,1130116.47,17.55,12.22,20.19,60.65,0.75
+ICICI Bank,ICICIBANK,Banks - Private Sector,1133.15,1.57,3.63,720.16,796569.46,18,12.22,20.32,20.03,0.3
+IDBI Bank,IDBI,Banks - Private Sector,87.16,2.02,2.01,43.07,93717.95,16.19,12.22,17.5,24.32,0.85
+IDFC First Bank,IDFCFIRSTB,Banks - Private Sector,77.7,0.87,1.97,88.81,54943.7,18.62,12.22,20.81,49.84,0.65
+IndusInd Bank,INDUSINDBK,Banks - Private Sector,1444,0.98,2.03,1477.98,112406.52,12.6,12.22,15.03,48.03,0.57
+J & K Bank,J&KBANK,Banks - Private Sector,130.2,0.85,1.39,152.45,14337.4,8.08,12.22,5.02,72.96,0.26
+Karur Vysya Bank,KARURVYSYA,Banks - Private Sector,198.5,1.52,1.89,130.7,15965.57,9.99,12.22,8.89,51.55,0.2
+Kotak Mah. Bank,KOTAKBANK,Banks - Private Sector,1707.85,1.76,3.03,971.84,339507.03,18.63,12.22,27.37,10.27,0.91
+RBL Bank,RBLBANK,Banks - Private Sector,253.8,0.92,1.13,276.6,15372.13,13.15,12.22,13.25,36.65,2.14
+T N Merc. Bank,TMB,Banks - Private Sector,474.5,0.89,1.07,535.33,7513.81,7.05,12.22,7.33,45.92,0.21
+Ujjivan Small,UJJIVANSFB,Banks - Private Sector,53.22,0.62,2.6,85.54,10426.5,8.14,12.22,8.59,82.6,0.18
+Yes Bank,YESBANK,Banks - Private Sector,23.04,3.28,1.68,7.03,69230.09,53.83,12.22,54.83,38.04,-9.72
+Bank of Baroda,BANKBARODA,Banks - Public Sector,269.8,0.51,1.33,533.63,139523.29,7.41,9.46,7.7,68.98,0.1
+Bank of India,BANKINDIA,Banks - Public Sector,129.1,0.99,0.87,130.34,58775.01,9.03,9.46,8.68,53.41,0.35
+Bank of Maha,MAHABANK,Banks - Public Sector,68.7,1.55,2.89,44.3,48649.06,12.03,9.46,10.23,74.6,0.52
+Canara Bank,CANBK,Banks - Public Sector,117.5,0.54,1.36,216.86,106580.21,6.99,9.46,6.03,71.04,0.08
+Central Bank,CENTRALBK,Banks - Public Sector,66,2.29,1.98,28.76,57294.22,21.45,9.46,14.69,55.94,1.08
+I O B,IOB,Banks - Public Sector,68.13,5.56,5.07,12.26,128782.09,48.51,9.46,28.35,49.39,2.22
+Indian Bank,INDIANB,Banks - Public Sector,577,0.75,1.45,764.46,77719.73,9.25,9.46,6.36,59.99,0.11
+Punjab Natl.Bank,PNB,Banks - Public Sector,126.95,1,1.36,126.98,139784.77,15.26,9.46,15.81,53.07,0.63
+St Bk of India,SBIN,Banks - Public Sector,832.4,1.53,2.06,544.16,742884.68,10.29,9.46,11.53,48.51,0.1
+UCO Bank,UCOBANK,Banks - Public Sector,57.39,1.42,2.71,40.55,68615.18,19.97,9.46,19.52,50.85,
+Union Bank (I),UNIONBANK,Banks - Public Sector,152.3,0.63,1.3,243.45,116259.82,8.45,9.46,6.43,72.53,0.18
+SKF India,SKFINDIA,Bearings,6081.1,4.4,11.19,1381.18,30063.75,54.48,29.96,44.81,29.63,5.14
+Schaeffler India,SCHAEFFLER,Bearings,4617.15,7.25,15,636.69,72167.75,78.36,29.96,50.77,28.32,5.12
+Timken India,TIMKEN,Bearings,3856.8,6.23,12,618.59,29010.36,73.94,29.96,62.75,24.11,3.45
+Radico Khaitan,RADICO,Breweries & Distilleries,1680.15,4.19,9.46,400.84,22466.19,87.8,31.06,58.58,19.85,13.83
+United Breweries,UBL,Breweries & Distilleries,1878,8.78,11.86,213.84,49654.34,121.12,31.06,122.26,16.05,-19.73
+United Spirits,MCDOWELL-N,Breweries & Distilleries,1171.4,5.05,12.52,231.89,85201.84,67.02,31.06,62.7,29.01,5.79
+Finolex Cables,FINCABLES,Cables - Power,1144.15,2.08,4.38,549.63,17498.59,31.2,32.72,24.15,13.42,4.48
+KEI Industries,KEI,Cables - Power,4226.1,3.13,12.15,1352.18,38136.97,65.6,32.72,32.53,26.29,2.51
+Polycab India,POLYCAB,Cables - Power,6631.4,2.95,12.17,2247.67,99635.44,55.83,32.72,42.42,28.74,1.92
+R R Kabel,RRKABEL,Cables - Power,1748,4.06,11.5,430.89,19720.75,105.87,32.72,77.93,38.81,11.9
+Sterlite Tech.,STLTECH,Cables - Telephone,129.95,,,,,,,,,
+AIA Engineering,AIAENG,Castings & Forgings,3691.8,2.83,5.21,1306.64,34821.19,30.66,30.59,30.89,18.56,1.63
+Bharat Forge,BHARATFORG,Castings & Forgings,1492.3,4.53,9.67,329.07,69479.81,75.7,30.59,62.62,29.25,-36.93
+CIE Automotive,CIEINDIA,Castings & Forgings,540,2.21,3.39,243.84,20485.6,25.29,30.59,22.76,20.64,2.54
+Happy Forgings,HAPPYFORGE,Castings & Forgings,1100.55,,,,,,,,,
+Ramkrishna Forg.,RKFORGE,Castings & Forgings,718.95,1.81,4.88,396.49,12996.91,38.02,30.59,25.88,32.13,1.64
+ACC,ACC,Cement - North India,2586.05,1.87,3.03,1382.88,48562.71,22.68,30.8,29.28,10.65,3.19
+Ambuja Cements,AMBUJACEM,Cement - North India,641.75,2.85,3.24,225.4,127428.79,36.97,30.8,33.69,10.58,4.16
+Birla Corpn.,BIRLACORPN,Cement - North India,1441.95,1.62,1.68,887.46,11104.49,26.78,30.8,27.52,13.16,2.5
+J K Cements,JKCEMENT,Cement - North India,3959,1.97,5.7,2007.19,30590.51,38.56,30.8,36.31,29.33,1.58
+JK Lakshmi Cem.,JKLAKSHMI,Cement - North India,798.25,1.3,3.21,611.83,9393,22.38,30.8,17.94,40.11,0.31
+Nuvoco Vistas,NUVOCO,Cement - North India,317.6,2.52,1.27,126.26,11343.34,76.99,30.8,31.7,13.69,1.13
+Prism Johnson,PRSMJOHNSN,Cement - North India,143.75,5.1,5.23,28.18,7235.78,,,,,
+Shree Cement,SHREECEM,Cement - North India,25541,2.4,4.43,10649.02,92153.87,38.46,30.8,43.82,16.51,2.43
+UltraTech Cem.,ULTRACEMCO,Cement - North India,10096,2.53,4.85,3984.56,291468.81,41.38,30.8,34.69,19.88,1.71
+Dalmia BharatLtd,DALBHARAT,Cement - South India,1811.6,2.59,2.07,700.67,33976.14,41.11,19.08,34.32,15.24,1.25
+India Cements,INDIACEM,Cement - South India,209.4,,,,,,,,,
+The Ramco Cement,RAMCOCEM,Cement - South India,787,2.27,2.53,346.03,18596.19,52.18,19.08,48.1,18.89,-7.56
+Cera Sanitary.,CERA,Ceramics - Tiles / Sanitaryware,7150,3.54,6.92,2020.68,9299.2,38.7,46.61,42.96,22.34,2.43
+Kajaria Ceramics,KAJARIACER,Ceramics - Tiles / Sanitaryware,1271.15,4.22,7.81,301.39,20244.1,47.96,46.61,48.93,23.57,3.8
+Aarti Industries,AARTIIND,Chemicals,626.05,3.46,4.26,180.83,22694.54,54.53,36.55,34.51,19.81,-16.83
+Aether Industri.,AETHER,Chemicals,828.9,7.39,5.3,112.13,10987.08,118.33,36.55,89.53,8.42,
+Alkyl Amines,ALKYLAMINE,Chemicals,1973,2.18,7.96,903.06,10086.26,67.75,36.55,61.27,23.47,5.54
+Anupam Rasayan,ANURAS,Chemicals,773.75,1.8,3.08,430.14,8494.68,66.05,36.55,59.2,14.33,3.12
+Archean Chemical,ACI,Chemicals,614.4,0.93,4.49,660.44,7581.5,23.51,36.55,18.09,34.38,0.52
+Atul,ATUL,Chemicals,5930.65,3.12,3.43,1897.91,17460.87,54.05,36.55,41.79,13.74,-9.69
+Balaji Amines,BALAMINES,Chemicals,2221.95,2.18,4.14,1018.75,7199.34,35.11,36.55,28.74,24.72,2.97
+Castrol India,CASTROLIND,Chemicals,194.25,1.59,9.1,122.16,19213.68,21.85,36.55,16.19,55.56,5.8
+Chemplast Sanmar,CHEMPLASTS,Chemicals,485.05,,,,,,,,,
+Clean Science,CLEAN,Chemicals,1409.6,1.95,12.49,721.39,14977.32,61.43,36.55,63.12,28.27,3.06
+Deepak Fertiliz.,DEEPAKFERT,Chemicals,550.8,0.55,1.37,998.05,6953.15,14.44,36.55,10.47,39.45,0.29
+Deepak Nitrite,DEEPAKNTR,Chemicals,2334.35,1.52,6.67,1532.06,31838.91,42.29,36.55,31.18,25.98,1.26
+Fine Organic,FINEORG,Chemicals,4425.95,2.07,7.25,2136.06,13570,36.88,36.55,38.52,27.09,1.58
+G N F C,GNFC,Chemicals,663.85,0.93,1.12,715.94,9754.65,14.06,36.55,6.42,31.46,1.06
+Godrej Industrie,GODREJIND,Chemicals,843.15,14.49,3.52,58.19,28388.09,473.34,36.55,25.43,18.99,-13.8
+Gujarat Fluoroch,FLUOROCHEM,Chemicals,3166,5.4,5.85,586.39,34778.55,79.97,36.55,37.41,25.07,-4.21
+Himadri Special,HSCL,Chemicals,355.9,4.81,5.79,73.93,17535.88,42.68,36.55,33.89,13.11,8.82
+Jubilant Ingrev.,JUBLINGREA,Chemicals,515.9,2.93,2.93,175.96,8217.35,44.94,36.55,24.11,17.34,
+Laxmi Organic,LXCHEM,Chemicals,257,3.84,3.92,66.99,7087.56,58.86,36.55,53.43,14.12,5.43
+Linde India,LINDEINDIA,Chemicals,9186.8,15.51,24.43,592.24,78345.02,186.21,36.55,85.44,26.25,2.17
+Navin Fluo.Intl.,NAVINFLUOR,Chemicals,3322.75,3.3,6.93,1007.21,16473.87,72.11,36.55,70.79,22.87,7.83
+PCBL Ltd,PCBL,Chemicals,262.05,0.79,3.16,331.45,9891.45,20.5,36.55,11.09,30.05,1.51
+Pidilite Inds.,PIDILITIND,Chemicals,2985.1,7.52,18.03,396.77,151824.94,85.22,36.55,94.58,24.81,6.23
+SRF,SRF,Chemicals,2300,2.32,5.94,993.16,68177.81,51.08,36.55,36.82,27.19,3.23
+Solar Industries,SOLARINDS,Chemicals,10008.6,7.05,27.41,1418.68,90567.85,108.33,107.67,58.86,34.18,4.18
+Tata Chemicals,TATACHEM,Chemicals,1087.2,3.09,1.24,352.19,27697.54,48.42,36.55,16.74,15.75,-4.64
+Godfrey Phillips,GODFRYPHLP,Cigarettes,3932.8,2.34,5.42,1680.21,20448.15,25.12,25.95,14.03,23.82,0.66
+ITC,ITC,Cigarettes,443.2,1.74,7.99,254.14,553322.95,26.98,25.95,24.6,34.91,2.31
+Elgi Equipments,ELGIEQUIP,Compressors / Drilling Equipment,645.3,3.81,13.97,169.17,20450.15,50.48,56.53,54.95,26.21,2.09
+HCL Technologies,HCLTECH,Computers - Software - Large,1353.35,1.34,5.4,1007.18,367253.91,23.4,29.86,22.41,35.85,2.47
+Infosys,INFY,Computers - Software - Large,1471.2,1.48,6.9,995.81,610675.61,23.44,29.86,28,41.81,2.09
+L&T Technology,LTTS,Computers - Software - Large,4614.4,1.8,9.66,2558.16,48801.25,38.79,29.86,41.13,38.47,3.12
+LTIMindtree,LTIM,Computers - Software - Large,4825,1.43,7.12,3378.25,142898.79,31.26,29.86,34.13,32.76,1.26
+Mphasis,MPHASIS,Computers - Software - Large,2392.9,1.46,5.08,1642.51,45229.72,29.04,29.86,28.88,26.78,3.75
+Persistent Sys,PERSISTENT,Computers - Software - Large,3560.45,2.58,11.05,1382.09,54848.74,50.24,29.86,45.95,35.91,1.83
+TCS,TCS,Computers - Software - Large,3872,2.54,15.42,1525.58,1400923.38,30.06,29.86,31.04,69.78,3.66
+Tech Mahindra,TECHM,Computers - Software - Large,1339.35,3.37,4.92,397.48,130844.5,55.52,29.86,25.41,28.47,-4.94
+Wipro,WIPRO,Computers - Software - Large,465.5,1.92,3.28,242.73,243366.83,22.07,29.86,20.58,22.22,5.29
+Affle India,AFFLE,Computers - Software - Medium / Small,1188.7,1.19,10.47,1002.35,16666.67,61.22,35.23,63.83,19.32,1.12
+BLS Internat.,BLS,Computers - Software - Medium / Small,328,3.23,11.25,101.49,13505.05,43.15,35.23,39.83,20.41,1.3
+Birlasoft Ltd,BSOFT,Computers - Software - Medium / Small,615.5,1.5,5.53,410.15,16992.74,27.24,35.23,29.3,18.84,1.47
+C.E. Info System,MAPMYINDIA,Computers - Software - Medium / Small,1977.85,3.38,16.23,585.54,10694.65,79.84,35.23,67.47,24.12,1.72
+Coforge,COFORGE,Computers - Software - Medium / Small,5053.45,2.07,8.65,2442.49,31240.84,39.09,35.23,42.62,40.44,2.72
+Cyient,CYIENT,Computers - Software - Medium / Small,1770.95,1.96,4.6,901.49,19640.02,26.86,35.23,25.56,28.1,3.05
+Firstsour.Solu.,FSL,Computers - Software - Medium / Small,196.3,2.24,3.77,87.48,13837.51,26.88,35.23,19.23,24.37,4.1
+Happiest Minds,HAPPSTMNDS,Computers - Software - Medium / Small,815.15,1.96,8.41,416.85,12412.67,52.11,35.23,65.21,27.63,0.95
+Intellect Design,INTELLECT,Computers - Software - Medium / Small,897.3,2.19,5.05,409.91,12277.25,38.25,35.23,29.79,20.29,1.95
+KPIT Technologi.,KPITTECH,Computers - Software - Medium / Small,1501.75,2.72,19.27,552.67,41169.66,69.52,35.23,63.74,42.79,1.41
+Latent View,LATENTVIEW,Computers - Software - Medium / Small,495,2.57,7.43,192.4,10192.25,64.24,35.23,53.01,12.54,2.79
+Mastek,MASTEK,Computers - Software - Medium / Small,2475.95,1.05,3.63,2352.79,7636.88,25.18,35.23,25.48,25.92,0.97
+Oracle Fin.Serv.,OFSS,Computers - Software - Medium / Small,7654.65,2.6,8.45,2946.41,66372.08,29.92,35.23,17.98,35.16,3.03
+PB Fintech.,POLICYBZR,Computers - Software - Medium / Small,1265.45,9.87,9.67,128.16,57097.49,886.5,35.23,880.47,-15.21,52.93
+Route Mobile,ROUTE,Computers - Software - Medium / Small,1434.75,0.72,4.22,1991.88,9008.55,24.89,35.23,35.55,23.44,0.55
+Sonata Software,SONATSOFTW,Computers - Software - Medium / Small,523.1,1.55,10.4,337.83,14669.08,35.77,35.23,28.8,49.62,3.2
+Tanla Platforms,TANLA,Computers - Software - Medium / Small,877.2,1.02,6.11,856.95,11794.84,21.55,35.23,27.92,35.71,0.25
+Tata Elxsi,TATAELXSI,Computers - Software - Medium / Small,7433.7,3.17,18.47,2345.17,46294.44,58.44,35.23,64.84,43.33,2.6
+Tata Technolog.,TATATECH,Computers - Software - Medium / Small,1049.6,3.44,13.21,305.17,42578.94,62.64,35.23,71.97,29.51,4.6
+Zensar Tech.,ZENSARTECH,Computers - Software - Medium / Small,625.05,2.04,4,305.83,14167.15,21.25,35.23,22.03,15.69,1.2
+eClerx Services,ECLERX,Computers - Software - Medium / Small,2281.55,1.37,5.03,1668.66,11185.38,21.78,35.23,19.4,35.49,1.23
+Brigade Enterpr.,BRIGADE,Construction,1260.85,5.97,8.66,211.06,29138.18,116.78,29.04,90.5,27.4,15.39
+DLF,DLF,Construction,842.7,7.11,5.32,118.49,208594.45,76.67,29.04,56.9,4.77,4.51
+Godrej Propert.,GODREJPROP,Construction,2813.25,4.9,7.84,573.87,78220.07,107.85,29.04,88.85,2.7,3.9
+IRB Infra.Devl.,IRB,Construction,73.86,3.67,3.27,20.12,44604.03,73.63,20.3,29.65,26.52,-11.5
+Ircon Intl.,IRCON,Construction,281.3,1.57,4.53,179.48,26456.65,28.48,20.3,9.2,14.31,1.77
+KNR Construct.,KNRCON,Construction,274.5,0.84,2.49,325.81,7719.87,13.95,20.3,19.21,32.69,1.17
+Macrotech Devel.,LODHA,Construction,1333.45,8.64,7.62,154.29,132628.3,81.41,40.26,46.65,12.92,-1017.63
+Mahindra Life.,MAHLIFE,Construction,590.3,7.54,4.86,78.27,9150.25,93.13,40.26,87.65,-2.08,-25.94
+NCC,NCC,Construction,287.9,0.84,2.74,344.14,18075.68,24.72,40.26,13.64,29.38,7.27
+Oberoi Realty,OBEROIRLTY,Construction,1786.5,3.01,4.69,593.98,64957.55,33.67,29.04,26.94,16.68,1.74
+PNC Infratech,PNCINFRA,Construction,541,0.91,2.98,597.19,13878.77,20.96,20.3,13.42,39.38,0.95
+Phoenix Mills,PHOENIXLTD,Construction,3195.1,2.26,6.11,1414.4,57096.99,51.95,29.04,51.97,24.8,2.19
+Prestige Estates,PRESTIGE,Construction,1640.75,4.68,5.96,350.33,65771.44,38.84,29.04,34.27,19.76,2.71
+Rail Vikas,RVNL,Construction,368.8,4.8,9.8,76.8,76895.53,52.68,20.3,10.01,16.99,2.68
+SignatureGlobal,SIGNATURE,Construction,1294,63.84,29.04,20.27,18182.11,1123.72,29.04,1120.7,0.79,
+Sobha,SOBHA,Construction,1877.5,11.33,7.02,165.73,17807.36,362.58,29.04,61.48,14.01,-12.01
+Sunteck Realty,SUNTECK,Construction,458.3,,,,,,,,,
+Blue Dart Expres,BLUEDART,Couriers,7236.5,5.76,12.57,1255.4,17172.2,57.06,56.82,47.03,69.89,2.09
+Kalyan Jewellers,KALYANKJIL,Diamond Cutting / Jewellery,403.85,3.63,9.95,111.25,41621.32,69.81,24.16,30.19,36.76,0.4
+Rajesh Exports,RAJESHEXPO,Diamond Cutting / Jewellery,302.1,0.57,0.59,525.48,8919.79,12.2,24.16,17.06,11.31,4.88
+Titan Company,TITAN,Diamond Cutting / Jewellery,3450.9,5.26,32.67,656.01,306366.13,87.57,24.16,90.26,65.31,4.33
+Vaibhav Global,VAIBHAVGBL,Diamond Cutting / Jewellery,391.45,2.43,5.25,161.12,6484.34,49.25,24.16,43.57,22.99,-41.39
+3M India,3MINDIA,Diversified - Large,30917,5.75,16.69,5376.33,34843.45,69.93,26.44,79.49,23.73,11.64
+Quess Corp,QUESS,Diversified - Large,599.15,1.42,3.19,423.13,8897.93,29.68,26.44,38.12,23.42,8.13
+Swan Energy,SWANENERGY,Diversified - Medium / Small,603.35,2.15,6.34,280.17,18912.41,68.26,34.71,83.72,8.7,
+DCM Shriram,DCMSHRIRAM,Diversified - Mega,986,1.88,2.36,524.88,15375.91,34.41,34.74,18.58,23.31,-2.68
+Whirlpool India,WHIRLPOOL,Domestic Appliances,1541,5.64,5.27,273.23,19550.61,85.18,74.92,76.86,10.24,-7.79
+A B B,ABB,Electric Equipment,8390,7.47,29.9,1122.58,177791.17,121.56,57.41,103.91,19.9,6.08
+Apar Inds.,APARINDS,Electric Equipment,7888.85,1.97,8.22,3995.9,31688.25,38.39,57.41,16.4,36.76,0.87
+B H E L,BHEL,Electric Equipment,304.9,14.29,4.35,21.33,106168.14,376.13,57.41,42.07,3.38,-16.92
+CG Power & Indu.,CGPOWER,Electric Equipment,636.5,4.94,32.23,128.89,97214.76,113.74,57.41,67.13,38.49,3.34
+Crompton Gr. Con,CROMPTON,Electric Equipment,390.3,4,8.36,97.67,25100.92,57.1,73.9,40.52,27.49,30.86
+Havells India,HAVELLS,Electric Equipment,1836.35,5.26,15.44,349.05,115080.94,90.49,73.9,70.4,23.92,9.09
+Hitachi Energy,POWERINDIA,Electric Equipment,11096.15,22.22,34.56,499.27,47027.25,287.18,57.41,144.94,21.48,
+Inox Wind,INOXWIND,Electric Equipment,605.05,,,,,,,,,
+Schneider Elect.,SCHNEIDER,Electric Equipment,921.4,26.55,99.84,34.71,22030.71,101.28,57.41,65.71,150.59,3.42
+Siemens,SIEMENS,Electric Equipment,7333.15,6.15,18.75,1192.77,261148.3,112.69,57.41,80.57,15.23,6.96
+Suzlon Energy,SUZLON,Electric Equipment,48.1,14.62,19.02,3.29,64904.52,131,57.41,112.21,74.64,7.68
+Triveni Turbine,TRITURBINE,Electric Equipment,586.75,3.38,19.53,173.61,18651.45,69.27,57.41,55.38,32.57,3.1
+V-Guard Industri,VGUARD,Electric Equipment,377.55,3.66,9.22,103.02,16400.29,70.96,57.41,48.25,19.14,10.34
+Graphite India,GRAPHITE,Electrodes - Graphites,591.65,1.89,2.11,312.27,11559.38,14.41,14.72,23.12,5.14,-0.57
+HEG,HEG,Electrodes - Graphites,2393.45,2.78,2.09,860.71,9237.6,29.65,14.72,13.24,13.62,-0.81
+Amber Enterp.,AMBER,Electronics - Components,3840.45,2.75,6.28,1394.96,12939.87,97.4,66.58,72.42,19.89,13.42
+Bharat Electron,BEL,Electronics - Components,287.5,3.74,12.95,76.97,210156.05,52.7,73.93,26.46,28.64,3.27
+Data Pattern,DATAPATTNS,Electronics - Components,3087.8,2.54,13,1215.83,17286.71,95.11,73.93,64.29,14.75,1.08
+Honeywell Auto,HONAUT,Electronics - Components,53424.95,7.28,13.12,7336.51,47227.68,94.2,85.15,83.56,17.1,13.59
+Kaynes Tech,KAYNES,Electronics - Components,3342.55,2.19,8.63,1528.65,21364.89,116.58,66.58,117.81,10.92,
+Syrma SGS Tech.,SYRMA,Electronics - Components,452.5,3.23,4.96,140.18,8035.75,74.28,85.15,71.58,18.26,
+Dixon Technolog.,DIXON,Electronics - Consumer,9204.75,4.47,32.44,2061.27,55064.25,149.63,101.73,116.47,44.4,3.54
+Action Const.Eq.,ACE,Engineering,1518.95,2.29,14.77,663.49,18088.17,55.15,43.75,28.24,24.26,1.3
+BEML Ltd,BEML,Engineering,4558.05,7.63,7.1,597.56,18979.69,67.3,70.31,45.16,14.42,1.93
+Bharat Dynamics,BDL,Engineering,2845.7,8.5,15.49,334.91,52156.38,109.42,70.31,28.63,19.83,-14.06
+Elecon Engg.Co,ELECON,Engineering,1138.8,2.27,7.98,502.35,12777.35,35.94,43.75,24.81,27.02,0.65
+GMM Pfaudler,GMMPFAUDLR,Engineering,1325.85,1.48,6.18,894.06,5960.6,34.23,43.75,54.17,48.33,1.17
+Hind.Aeronautics,HAL,Engineering,4945.25,3.41,11.26,1450.67,330725.93,43.55,70.31,14.68,25.69,1.64
+Jupiter Wagons,JWL,Engineering,539.15,2.08,13.64,259.39,22228.79,66.74,43.75,24.59,27.59,0.83
+MTAR Technologie,MTARTECH,Engineering,2103.5,3.55,9.76,592.57,6470.26,79.01,70.31,71.21,27.03,0.99
+Praj Industries,PRAJIND,Engineering,520.4,1.88,8.61,277.01,9565.6,34.21,43.75,41.08,27.05,0.73
+Thermax,THERMAX,Engineering,5297.1,6.1,14.15,869.05,63118.21,107.4,43.75,69.7,15.58,11.29
+Titagarh Rail,TITAGARH,Engineering,1255,3.93,7.55,319.26,16901.51,58.56,43.75,36.55,15.64,0.69
+Engineers India,ENGINERSIN,Engineering - Turnkey Services,283.7,1.82,7.46,155.88,15945.17,30.6,38.15,22.46,20.2,-14.1
+GMR Airports Inf,GMRINFRA,Engineering - Turnkey Services,86.8,,,,,,,,,
+HFCL,HFCL,Engineering - Turnkey Services,100.65,3.02,3.64,33.34,14520.58,44,38.15,31.22,14.77,5.31
+Larsen & Toubro,LT,Engineering - Turnkey Services,3576.3,2.56,5.61,1397.45,491653.28,37.88,38.15,30.5,37.69,4.55
+Rites,RITES,Engineering - Turnkey Services,749.4,1.55,7,483.63,18008.25,39.13,38.15,15.47,27.37,4.08
+Sterling & Wils.,SWSOLAR,Engineering - Turnkey Services,768.35,,,,,,,,,
+Cummins India,CUMMINSIND,Engines,3766,5.47,18.42,687.94,104393.53,73.58,41.73,39.67,20.58,6.95
+Netwrk.18 Media,NETWORK18,Entertainment / Electronic Media Software,81.8,,,,,,,,,
+PVR Inox,PVRINOX,Entertainment / Electronic Media Software,1349.65,,,,,,,,,
+Saregama India,SAREGAMA,Entertainment / Electronic Media Software,458.9,2.71,6.22,169.26,8857.19,47.32,35.68,41.07,16.38,1.6
+Sun TV Network,SUNTV,Entertainment / Electronic Media Software,665.7,1.08,2.61,614.14,26234.2,13.86,35.68,11.8,26.19,1.63
+TV18 Broadcast,TV18BRDCST,Entertainment / Electronic Media Software,43.94,,,,,,,,,
+Zee Entertainmen,ZEEL,Entertainment / Electronic Media Software,148.55,3.38,1.33,43.91,14268.54,43.98,35.68,26.36,10.95,-1.62
+Chambal Fert.,CHAMBLFERT,Fertilizers,393.25,0.6,2.19,654.48,15755.62,12.34,23.01,10.45,16.21,0.98
+Coromandel Inter,COROMANDEL,Fertilizers,1228.4,1.35,3.84,913.25,36169.37,22.03,23.01,16.87,23.03,1.28
+F A C T,FACT,Fertilizers,693.75,7.11,32.63,97.58,44890.69,114.61,23.01,25.6,44.55,4.08
+G S F C,GSFC,Fertilizers,222.1,1.16,0.69,191.48,8850.19,15.65,23.01,6.92,10.03,5.77
+R C F,RCF,Fertilizers,148,1.76,1.79,84.15,8165,41.83,23.01,8.57,25.43,4.11
+360 ONE,360ONE,Finance & Investments,809.25,3.99,8.47,202.74,29040.91,36.06,19.78,27.03,45.42,2.18
+Aditya Birla Cap,ABCAPITAL,Finance & Investments,225.85,1.21,2.17,186.96,58736.64,17.58,19.78,17.99,44.17,0.54
+Anand Rathi Wea.,ANANDRATHI,Finance & Investments,4087.45,2.84,26.36,1439.9,17097.06,76.05,19.78,34.57,49.54,2.46
+Angel One,ANGELONE,Finance & Investments,2630.25,0.75,7.26,3495.23,23670,21.02,18.96,19.59,60.29,0.3
+Bajaj Finance,BAJFINANCE,Finance & Investments,6828.95,1.59,5.38,4299.19,422709.43,29.23,19.78,41.35,50,1
+Bajaj Finserv,BAJAJFINSV,Finance & Investments,1610.5,1.81,4.27,890.82,256953.47,31.59,19.78,42.06,65.45,1.55
+Bajaj Holdings,BAJAJHLDNG,Finance & Investments,8152.75,1.33,1.67,6111.83,90731.97,12.46,19.78,14.75,2.38,0.66
+Capri Global,CGCL,Finance & Investments,222.65,2.23,4.8,99.62,18367.29,65.74,19.78,68.6,34.38,4.19
+Chola Financial,CHOLAHLDNG,Finance & Investments,1119.4,0.8,2.04,1400.6,21019.84,11.84,19.78,12.67,134.53,0.58
+Cholaman.Inv.&Fn,CHOLAFIN,Finance & Investments,1274,2.02,5.5,630.8,107021.25,31.32,19.78,29.75,69.46,1.34
+CreditAcc. Gram.,CREDITACC,Finance & Investments,1408.4,0.89,3.46,1574.61,22447.52,15.48,19.78,25.76,51.09,0.44
+Five-Star Bus.Fi,FIVESTAR,Finance & Investments,720.4,1.02,4.08,706.95,21068.03,25.14,19.78,30.15,29.29,0.63
+General Insuranc,GICRE,Finance & Investments,383.75,1.23,1.5,311.13,67325,10.47,42.34,9.04,6.96,0.73
+HDFC AMC,HDFCAMC,Finance & Investments,3818.95,3.54,11.51,1079.99,81528.45,41.9,19.78,34.66,28.8,2.64
+HDFC Life Insur.,HDFCLIFE,Finance & Investments,566.95,6.7,8.34,84.56,121947.77,77.44,42.34,91.29,0.76,13.08
+I D F C,IDFC,Finance & Investments,114.95,1.74,1.38,66.12,18391.82,17.53,19.78,26.37,0.55,0.57
+ICICI Lombard,ICICIGI,Finance & Investments,1657.65,2.37,6.66,697.96,81722.79,42.61,42.34,42.6,12,3.33
+ICICI Pru Life,ICICIPRULI,Finance & Investments,582.25,7.98,7.69,72.95,83917.15,98.65,42.34,91.47,-13.07,-49.82
+ICICI Securities,ISEC,Finance & Investments,729.6,0.7,5.98,1048.39,23608.78,13.85,18.96,16.48,80.89,0.49
+IIFL Finance,IIFL,Finance & Investments,396.4,0.68,1.72,583.43,16805.08,9.34,19.78,12.61,62.01,0.69
+JM Financial,JMFINANCIL,Finance & Investments,80,0.96,0.93,83.04,7644.71,11.49,19.78,10.61,26.37,-88.38
+Jio Financial,JIOFIN,Finance & Investments,367.8,1.56,1.68,235.19,233673.77,145.63,19.78,143.16,0.81,
+L&T Finance Ltd,LTF,Finance & Investments,157,1.84,1.67,85.33,39076.36,16.85,19.78,20.4,34.16,22.47
+Life Insurance,LICI,Finance & Investments,1036.15,1.17,10.7,885.31,655364.68,16.25,42.34,15.08,27.86,0.23
+M & M Fin. Serv.,M&MFIN,Finance & Investments,269.6,1.22,1.68,221.59,33311.4,17.32,19.78,16.92,50.95,15.33
+Manappuram Fin.,MANAPPURAM,Finance & Investments,177.65,0.5,1.44,353.85,15036.97,7.37,19.78,7.53,44.32,0.43
+Max Financial,MFSL,Finance & Investments,950.4,7.91,8.44,120.11,32799.73,96.45,19.78,80.55,21.46,18.2
+Motil.Oswal.Fin.,MOTILALOFS,Finance & Investments,2260,0.95,3.9,2372.72,33675.64,13.81,18.96,9.43,36.68,0.26
+Muthoot Finance,MUTHOOTFIN,Finance & Investments,1717.95,1.39,2.92,1236.41,68969.17,17.61,19.78,13.88,42.3,1.23
+New India Assura,NIACL,Finance & Investments,248,2.06,1.46,120.56,40870.4,36.62,42.34,36.36,4.78,0.9
+Nippon Life Ind.,NAM-INDIA,Finance & Investments,618.75,2.79,9.77,221.76,39009.62,35.19,19.78,27.11,26.07,1.97
+Nuvama Wealth,NUVAMA,Finance & Investments,4880,1.44,5.97,3382.37,17237.19,27.57,18.96,27.66,43.17,
+Piramal Enterp.,PEL,Finance & Investments,818.35,,,,,,,,,
+Poonawalla Fin,POONAWALLA,Finance & Investments,458.5,3.39,4.38,135.37,35513.65,33.43,19.78,47.14,23.19,1.17
+SBFC Finance,SBFC,Finance & Investments,82.55,1.31,3.18,62.8,8863.86,37.38,19.78,44.82,24.52,0.65
+SBI Cards,SBICARD,Finance & Investments,709.5,1.66,5.6,426.4,67471.43,28.03,19.78,37.79,43.77,1.23
+SBI Life Insuran,SBILIFE,Finance & Investments,1449.25,6.64,9.74,218.25,145137.39,76.62,42.34,76.49,2.39,8.87
+Shriram Finance,SHRIRAMFIN,Finance & Investments,2386.6,1.02,1.83,2339.73,89686.74,12.13,19.78,11.67,53.62,0.52
+Star Health Insu,STARHEALTH,Finance & Investments,547.9,2.75,4.72,199.13,32067.71,37.99,42.34,49.66,14.98,0.83
+Sundaram Finance,SUNDARMFIN,Finance & Investments,4519.35,3.51,4.74,1289.35,50210.04,31.33,19.78,22.05,42.1,2.51
+Tata Inv.Corpn.,TATAINVEST,Finance & Investments,6590,2.72,1.42,2424.5,33342.29,97.08,19.78,41.34,0.96,6.96
+UTI AMC,UTIAMC,Finance & Investments,922.2,0.97,2.69,955.58,11735.69,15.36,19.78,19.73,19.3,0.9
+AAVAS Financiers,AAVAS,Finance - Housing,1611.25,1.43,3.41,1125.6,12751.37,25.99,19.17,38.64,37.45,1.14
+Aptus Value Hou.,APTUS,Finance - Housing,308.65,1.18,4.07,261.23,15400.87,25.2,19.17,27.1,30.15,0.62
+Can Fin Homes,CANFINHOME,Finance - Housing,741.05,1.03,2.29,720.18,9867.41,13.1,19.17,15.25,74.2,0.64
+H U D C O,HUDCO,Finance - Housing,271,3.16,3.42,85.71,54251.43,26.44,19.17,5.4,45.87,2.4
+Home First Finan,HOMEFIRST,Finance - Housing,817.45,1.14,3.43,714.82,7235.75,23.68,19.17,32.2,41.2,0.51
+Indiabulls Hous.,IBULHSGFIN,Finance - Housing,167.65,0.83,0.67,203.18,9969.93,8.62,19.17,9.2,43.53,-0.39
+LIC Housing Fin.,LICHSGFIN,Finance - Housing,652.6,0.65,1.15,1000.2,35897.15,7.54,19.17,7.55,78.69,0.52
+PNB Housing,PNBHOUSING,Finance - Housing,804.9,1.45,1.42,555.36,20905.13,13.68,19.17,13.14,38.18,1.91
+I R F C,IRFC,Finance - Term-Lending Institutions,186.8,2.67,4.93,70.02,244119.75,38.05,26.28,5.9,49.37,1.64
+Power Fin.Corpn.,PFC,Finance - Term-Lending Institutions,468,0.68,1.55,686.99,154444.77,7.85,26.28,2.84,81.63,0.53
+REC Ltd,RECLTD,Finance - Term-Lending Institutions,538.95,0.81,2.05,661.81,141917.6,10.04,26.28,3.2,62.69,0.51
+Avanti Feeds,AVANTIFEED,Food - Processing - Indian,533.5,1.63,3.02,326.43,7268.72,20.32,38.37,21.25,17.56,3.1
+Bikaji Foods,BIKAJI,Food - Processing - Indian,534,3.7,12.68,144.16,13370.42,69.71,38.37,76.05,18.09,3.7
+KRBL,KRBL,Food - Processing - Indian,283.65,0.87,1.35,324.51,6492.46,10.91,38.37,12.07,19.59,3.06
+Varun Beverages,VBL,Food - Processing - Indian,1503.55,4.26,28.15,352.98,195371.8,90.27,38.37,61.6,50.33,1.91
+Britannia Inds.,BRITANNIA,Food - Processing - MNC,5286.3,5.52,32.29,957.4,127330.26,59.6,59.39,55.4,73.98,4.55
+Nestle India,NESTLEIND,Food - Processing - MNC,2478.05,5.85,71.54,423.71,238923.03,74.89,59.39,80.97,170.49,5.62
+Asahi India Glas,ASAHIINDIA,Glass & Glass Products,593,3.3,6.13,179.43,14415.85,44.33,37.66,38.07,36.4,3.85
+Borosil Renew.,BORORENEW,Glass & Glass Products,500.3,10.38,7.01,48.2,6530.76,,,,,
+Apollo Hospitals,APOLLOHOSP,Healthcare,5967.35,6.01,13.25,992.78,85801.35,108.8,43.54,89.77,39.95,1.62
+Aster DM Health.,ASTERDM,Healthcare,361.15,2.72,4.1,132.94,18040,49.5,43.54,28.44,43.7,2.24
+Dr Lal Pathlabs,LALPATHLAB,Healthcare,2568.5,3.57,11.6,719.51,21441.9,59.91,43.54,71.61,29.27,4.82
+Fortis Health.,FORTIS,Healthcare,470.7,6.13,4.66,76.84,35535.88,66.45,43.54,52.17,16.15,1.6
+Global Health,MEDANTA,Healthcare,1197.3,3.88,11.06,308.42,32148.41,67.27,43.54,60.41,26.08,1.2
+Krishna Institu.,KIMS,Healthcare,1879.3,1.97,8.21,954.5,15039.67,48.44,43.54,43.34,37.33,0.91
+Max Healthcare,MAXHEALTH,Healthcare,810.05,4.33,9.37,186.97,78729.76,74.45,43.54,62.17,17.45,0.1
+Metropolis Healt,METROPOLIS,Healthcare,1939.85,3.3,9.1,587.71,9937.64,77.81,43.54,52.4,28.06,48.33
+Narayana Hrudaya,NH,Healthcare,1253.1,2.24,10.24,558.42,25608.48,33.2,43.54,35.22,38.24,0.52
+Poly Medicure,POLYMED,Healthcare,1806.95,3.39,11.82,532.36,17341.53,67.1,43.54,59.8,22.45,2.1
+Rainbow Child.,RAINBOW,Healthcare,1248.4,2.86,10,436.08,12671.38,58.41,43.54,49.84,35.28,1.57
+Vijaya Diagnost.,VIJAYA,Healthcare,771.35,3.37,12.07,229.18,7894.45,65.6,43.54,48.06,33.3,3.02
+Chalet Hotels,CHALET,Hotels,780.25,3.61,8.62,216.38,17017.27,61.18,46.51,65.47,30.15,0.45
+Devyani Intl.,DEVYANI,Hotels,152.45,13.81,17.37,11.04,18386.93,299.29,174.29,97.7,74.05,13.83
+EIH,EIHOTEL,Hotels,478.3,5.06,8.62,94.46,29911.21,54.57,46.51,45.84,-2.03,3.61
+Indian Hotels Co,INDHOTEL,Hotels,565.7,4.69,8.47,120.6,80523.59,63.96,46.51,62.14,22.36,1.81
+Jubilant Food.,JUBLFOOD,Hotels,473.7,5.59,14.39,84.76,31256.8,119.45,174.29,107.08,57.53,-30.32
+Lemon Tree Hotel,LEMONTREE,Hotels,147.7,6.21,13.53,23.78,11701.44,93.27,46.51,85.66,30.57,1.8
+Mahindra Holiday,MHRIL,Hotels,408,9.85,15.7,41.44,8239.61,71.33,46.51,78.59,100.19,4.95
+Restaurant Brand,RBA,Hotels,103.19,,,,,,,,,
+Sapphire Foods,SAPPHIRE,Hotels,1412.75,7.25,6.7,194.75,8999.83,173.21,174.29,55.06,36.99,6.67
+Westlife Food,WESTLIFE,Hotels,866.55,16.95,22.94,51.11,13512.66,195.26,174.29,125.79,68.18,6.22
+Bata India,BATAINDIA,Leather / Leather Products,1354,4.8,12.43,282.31,17402.61,60.19,60.73,68.38,43.09,7.74
+Campus Activewe.,CAMPUS,Leather / Leather Products,260.55,3.55,13.33,73.32,7953.45,99.89,60.73,93.83,54.73,3.32
+Metro Brands,METROBRAND,Leather / Leather Products,1133.45,5.71,16.54,198.66,30820.83,74.75,60.73,87.53,40.29,3.3
+Coal India,COALINDIA,Mining / Minerals / Metals,496.7,0.7,3.7,707.34,306102.68,8.13,23.03,6.75,46.02,0.49
+G M D C,GMDCLTD,Mining / Minerals / Metals,420.35,1.61,2.26,261.8,13367.13,15.48,23.03,8.34,15.97,0.54
+Hindustan Copper,HINDCOPPER,Mining / Minerals / Metals,372.6,15.64,16.42,23.83,36031.37,118.84,32.42,48.1,22.77,3.98
+Hindustan Zinc,HINDZINC,Mining / Minerals / Metals,723.85,2.7,20.09,267.88,305849.63,39.22,32.42,14.32,97.23,140.07
+Lloyds Metals,LLOYDSME,Mining / Minerals / Metals,705.45,0.82,12.7,856.57,35643.08,28.68,23.03,26.09,56.34,0.22
+NMDC,NMDC,Mining / Minerals / Metals,265.1,1.09,3.21,242.93,77690.36,13.48,23.03,5.94,37.87,2.81
+Vedanta,VEDL,Mining / Minerals / Metals,472.45,3.43,5.65,137.64,175619.46,48.19,23.03,7.49,108.67,-4.01
+Adani Ports,ADANIPORTS,Miscellaneous,1431.1,2.15,5.88,665.54,309137.53,36.85,35.42,27.92,26.44,2.34
+Adani Total Gas,ATGL,Miscellaneous,958.6,10.17,29.45,94.28,105427.82,157.91,15.5,266.9,24.8,6.94
+Allcargo Logist.,ALLCARGO,Miscellaneous,71.15,1.53,2.74,46.45,6992.58,50.34,37.83,14.27,43,1.74
+BSE,BSE,Miscellaneous,2614.65,4.64,10.73,563.24,35396.15,77.53,52.33,39.4,18.73,4.62
+C D S L,CDSL,Miscellaneous,2153,1.73,15.42,1247.52,22498.91,53.67,37.57,48.54,31.88,1.8
+CRISIL,CRISIL,Miscellaneous,4349.2,2.57,14.51,1695.34,31803.01,48.88,36.42,48.99,37.63,3.98
+Cams Services,CAMS,Miscellaneous,3522,3.89,18.94,904.46,17325.72,49.33,52.33,43.01,54.04,2.25
+Century Plyboard,CENTURYPLY,Miscellaneous,673.1,2.41,7.16,279.5,14954.49,41.44,32.7,39.33,33.36,2.14
+Cochin Shipyard,COCHINSHIP,Miscellaneous,1843.35,4.24,10.31,435.14,48494.97,88.63,72.86,10.87,10.66,-14.8
+Container Corpn.,CONCOR,Miscellaneous,1103.95,4.71,5.66,234.51,67263.01,53.39,37.83,41.98,17.56,83.42
+Delhivery,DELHIVERY,Miscellaneous,404.8,,,,,,,,,
+GAIL (India),GAIL,Miscellaneous,200.15,1.18,1.7,169.63,131600.65,13.26,15.5,8.54,8.94,1.64
+Garden Reach Sh.,GRSE,Miscellaneous,1422.1,1.62,9.63,878.23,16290.51,45.56,72.86,22.84,12.75,1.72
+Guj Pipavav Port,GPPL,Miscellaneous,207.5,2.69,4.41,77.14,10031.39,26.36,35.42,19.57,23.29,2.66
+Guj.St.Petronet,GSPL,Miscellaneous,296.7,0.76,1.59,392.86,16740.17,10.31,15.5,9.79,32.41,1.02
+Gujarat Gas,GUJGASLTD,Miscellaneous,553.85,2.38,4.92,232.33,38126.42,34.6,15.5,27.38,29.53,1.67
+Indiamart Inter.,INDIAMART,Miscellaneous,2591.55,1.66,8.93,1559.37,15543.9,46.34,46.8,54.87,16.17,0.61
+Indian Energy Ex,IEX,Miscellaneous,154.45,2.13,14.51,72.49,13772.19,40.35,52.33,46.57,39.49,2.32
+Indraprastha Gas,IGL,Miscellaneous,452,1.03,3.77,440.28,31640.04,18.14,15.5,20.56,23.79,0.95
+Info Edg.(India),NAUKRI,Miscellaneous,6435,4.36,2.79,1477.19,83258.71,128.71,46.8,125.57,1.29,2.3
+JSW Infrast,JSWINFRA,Miscellaneous,278.75,1.97,7.3,141.49,58537.54,50.64,35.42,44.67,24.14,1.45
+Just Dial,JUSTDIAL,Miscellaneous,958.2,1.92,2.06,499.59,8148.57,22.43,46.8,47.09,2.66,1.22
+KFin Technolog.,KFINTECH,Miscellaneous,749.65,2.86,11.25,261.71,12820.8,52.17,52.33,37.72,30.53,0.56
+Mahanagar Gas,MGL,Miscellaneous,1287.55,0.82,2.45,1573.63,12718.11,9.94,15.5,12.67,22.8,0.53
+Mazagon Dock,MAZDOCK,Miscellaneous,3140.05,3.9,13.2,804.13,63331.61,42,33.6,16.03,14.51,2.15
+Multi Comm. Exc.,MCX,Miscellaneous,3740.05,6.29,13.89,594.81,19074.34,229.47,52.33,44.51,13.79,-19.48
+NBCC,NBCC,Miscellaneous,149.85,4.66,13.73,32.19,26973,66.54,41.75,29.48,10.02,65.88
+One 97,PAYTM,Miscellaneous,357.65,,,,,,,,,
+Petronet LNG,PETRONET,Miscellaneous,306.4,1.12,2.73,272.87,45960,13,15.5,10.31,25.21,1.25
+RattanIndia Ent,RTNINDIA,Miscellaneous,76.38,2.03,14.49,37.58,10557.76,25.29,37.57,20.69,-1575.56,1.79
+SPARC,SPARC,Miscellaneous,213.85,,,,,,,,,
+TVS Supply,TVSSCS,Miscellaneous,175.05,,,,,,,,,
+Zomato Ltd,ZOMATO,Miscellaneous,185.65,6.12,8.06,30.35,163739.28,466.49,46.8,482.88,-10.16,27.95
+Safari Inds.,SAFARI,Moulded Luggage,2060.5,2.71,12.2,759.9,10048.46,57.17,96.41,61.78,30.63,1.27
+V I P Inds.,VIPIND,Moulded Luggage,517.45,8.59,10.79,60.23,7345.57,135.27,96.41,68.29,50.49,-7.57
+O N G C,ONGC,Oil Drilling / Allied Services,281.8,0.75,1.04,377.03,354512.18,6.94,19.78,5.36,22.7,0.7
+Oil India,OIL,Oil Drilling / Allied Services,651.5,0.37,1.48,1772.39,70648.99,9.01,19.78,4.43,28.37,0.61
+EPL Ltd,EPL,Packaging,192.95,1.48,3.04,130.35,6143.07,22.33,20.98,26.37,30.98,4.05
+Asian Paints,ASIANPAINT,Paints / Varnishes,2899.4,4.03,14.79,719.36,278109.89,50.99,45.85,80.07,34.35,2.48
+Berger Paints,BERGEPAINT,Paints / Varnishes,488.1,3.83,10.57,127.47,56902.55,48.72,45.85,69.24,29.11,2.53
+Indigo Paints,INDIGOPNTS,Paints / Varnishes,1389.5,2.06,7.24,673.34,6616.9,44.51,45.85,57.21,23.25,1.1
+Kansai Nerolac,KANSAINER,Paints / Varnishes,272.95,2.16,3.94,126.53,22064.7,32.53,45.85,55.85,15.2,3.47
+Century Textiles,CENTURYTEX,Paper,2138.5,18.83,6.04,113.54,23886.16,93.61,8.09,63.93,12.51,-2
+JK Paper,JKPAPER,Paper,378.5,0.61,1.24,617.79,6411.92,5.71,8.09,7.56,41.06,0.26
+Dabur India,DABUR,Personal Care - Indian,558.2,3.86,10.02,144.57,98915.22,54.54,37.59,55.26,23.56,14.02
+Emami,EMAMILTD,Personal Care - Indian,539.05,3.21,9.79,167.92,23529.54,32.66,37.59,31.52,43.37,3
+Godrej Consumer,GODREJCP,Personal Care - Indian,1312.1,,,,,,,,,
+Jyothy Labs,JYOTHYLAB,Personal Care - Indian,422.55,3.01,8.59,140.4,15516.37,42.08,37.59,35.76,19.39,3.13
+Colgate-Palmoliv,COLPAL,Personal Care - Multinational,2720.65,5.25,39.39,518.3,73997.82,55.28,56.73,41.46,89.67,4.57
+Gillette India,GILLETTE,Personal Care - Multinational,6944.4,3.6,21.98,1929.99,22631.87,58.41,56.73,57.21,53.63,6.56
+Hind. Unilever,HINDUNILVR,Personal Care - Multinational,2381.3,2.43,10.94,980.6,559508.18,54.45,56.73,60.95,28.34,5.14
+P & G Hygiene,PGHH,Personal Care - Multinational,15907.25,4.98,49.06,3194.54,51636.1,69.29,56.73,78.95,88.29,5.59
+P I Industries,PIIND,Pesticides / Agrochemicals - Indian,3670.15,1.68,6.4,2184.51,55682.77,33.16,34.45,47.55,20.94,1
+Sumitomo Chemi.,SUMICHEM,Pesticides / Agrochemicals - Indian,435.95,2.61,8.67,167.23,21760.28,65.35,34.45,51.48,29.02,2.31
+UPL,UPL,Pesticides / Agrochemicals - Indian,509.75,,,,,,,,,
+Bayer Crop Sci.,BAYERCROP,Pesticides / Agrochemicals - Multinational,5567,1.78,8,3125.07,25019.23,31.26,31.58,33.48,32.63,1.77
+Divi's Lab.,DIVISLAB,Pharmaceuticals - Indian - Bulk Drugs,4115,2.19,8.69,1878.66,109240.34,79,33.33,53.73,26.47,5.04
+Jubilant Pharmo,JUBLPHARMA,Pharmaceuticals - Indian - Bulk Drugs,714.35,7.53,2.13,94.92,11379.61,310.91,33.33,15.17,21.97,
+Alembic Pharma,APLLTD,Pharmaceuticals - Indian - Bulk Drugs & Formln,958.75,1.95,3.93,490.54,18845.52,30.59,36.41,28.86,15.65,26.37
+Alkem Lab,ALKEM,Pharmaceuticals - Indian - Bulk Drugs & Formln,5410,2.47,6.56,2191.39,64684.68,38.42,36.41,32.7,24.69,3.44
+Aurobindo Pharma,AUROPHARMA,Pharmaceuticals - Indian - Bulk Drugs & Formln,1231.55,1.77,2.55,694.35,72161.32,25.72,36.41,13.65,17.33,-5.65
+Biocon,BIOCON,Pharmaceuticals - Indian - Bulk Drugs & Formln,314.5,1.74,1.9,180.41,37758.93,36.71,36.41,48,15.85,5.43
+Cipla,CIPLA,Pharmaceuticals - Indian - Bulk Drugs & Formln,1487.8,1.84,4.56,808.8,120124.27,28.2,36.41,29.4,21.27,1.11
+Concord Biotech,CONCORDBIO,Pharmaceuticals - Indian - Bulk Drugs & Formln,1451.6,2.41,11.23,602.1,15186.07,50.44,36.41,52.42,25.13,2.72
+Dr Reddy's Labs,DRREDDY,Pharmaceuticals - Indian - Bulk Drugs & Formln,5912.8,1.14,3.51,5179.82,98636.37,17.72,36.41,23.37,26.11,0.72
+FDC,FDC,Pharmaceuticals - Indian - Bulk Drugs & Formln,475.6,1.48,3.92,322.04,7743.25,26.78,36.41,24.82,14.86,20.44
+Glenmark Life,GLS,Pharmaceuticals - Indian - Bulk Drugs & Formln,830.05,0.72,4.34,1152.19,10170.37,21.58,36.41,12.62,29.02,1.13
+Glenmark Pharma.,GLENMARK,Pharmaceuticals - Indian - Bulk Drugs & Formln,1028.1,,,,,,,,,
+Granules India,GRANULES,Pharmaceuticals - Indian - Bulk Drugs & Formln,426.55,1.19,3.23,358.91,10338.15,25.5,36.41,16.83,28.25,2.24
+Ipca Labs.,IPCALAB,Pharmaceuticals - Indian - Bulk Drugs & Formln,1300.45,2.39,5.37,543.64,32992.96,64.27,36.41,33.5,24.15,4.54
+J B Chem & Pharm,JBCHEPHARM,Pharmaceuticals - Indian - Bulk Drugs & Formln,1677.05,2.43,8.9,691.28,26028.06,47.09,36.41,38.75,26.22,1.89
+Laurus Labs,LAURUSLABS,Pharmaceuticals - Indian - Bulk Drugs & Formln,448.1,3.11,5.94,144.04,24151.17,150.36,36.41,33.17,32.38,13.41
+Lupin,LUPIN,Pharmaceuticals - Indian - Bulk Drugs & Formln,1633.75,5.03,5.2,324.66,74458.07,38.88,36.41,47.24,14.58,1.82
+Mankind Pharma,MANKIND,Pharmaceuticals - Indian - Bulk Drugs & Formln,2089.55,2.19,8.68,956.08,83714.68,45.86,36.41,54.59,20.08,1.59
+Natco Pharma,NATCOPHARM,Pharmaceuticals - Indian - Bulk Drugs & Formln,1021.55,1.85,3.51,551.8,18296.97,14.35,36.41,26.73,7.45,36.79
+Piramal Pharma,PPLPHARMA,Pharmaceuticals - Indian - Bulk Drugs & Formln,149.7,15.26,2.49,9.81,19804.59,1261.53,36.41,1245.83,9.13,
+Sun Pharma.Inds.,SUNPHARMA,Pharmaceuticals - Indian - Bulk Drugs & Formln,1495,2.42,5.59,617.64,358700.59,35.89,36.41,29.37,20.39,1.53
+Suven Pharma,SUVENPHAR,Pharmaceuticals - Indian - Bulk Drugs & Formln,629.45,1.49,8.28,423.3,16023.59,43.19,36.41,32.03,34.11,
+Syngene Intl.,SYNGENE,Pharmaceuticals - Indian - Bulk Drugs & Formln,686.8,3.54,6.5,193.89,27646.24,53.29,36.41,57.6,24.13,5.55
+Zydus Lifesci.,ZYDUSLIFE,Pharmaceuticals - Indian - Bulk Drugs & Formln,1084.65,2.57,5.51,422.1,109141.15,28.35,36.41,22.25,21.94,1.72
+Ajanta Pharma,AJANTPHARM,Pharmaceuticals - Indian - Formulations,2381.85,2.15,8.39,1106.68,29991.47,36.76,27.38,26.85,25.36,2.28
+Caplin Point Lab,CAPLIPOINT,Pharmaceuticals - Indian - Formulations,1310.85,0.95,4.31,1375.58,9954.84,21.81,27.38,19.77,22.03,1.03
+ERIS Lifescience,ERIS,Pharmaceuticals - Indian - Formulations,888.85,1.69,4.67,526.95,12092.58,30.83,27.38,25.64,24.55,4.95
+Gland Pharma,GLAND,Pharmaceuticals - Indian - Formulations,1865.2,1.17,3.49,1599.3,30721.73,39.78,27.38,38.73,18.2,
+Torrent Pharma.,TORNTPHARM,Pharmaceuticals - Indian - Formulations,2673.65,6.43,13.43,416.09,90484.4,63.22,27.38,43.68,44.41,4.57
+Abbott India,ABBOTINDIA,Pharmaceuticals - Multinational,26052.25,3.17,14.97,8222.36,55361.06,46.09,42.02,49.92,35.72,2.09
+Astrazeneca Phar,ASTRAZEN,Pharmaceuticals - Multinational,5688.05,5.5,21.7,1034.59,14220.13,89.18,42.02,91.47,18.19,2.39
+Glaxosmi. Pharma,GLAXO,Pharmaceuticals - Multinational,2471.05,6.5,23.58,380.27,41861.1,60.54,42.02,54.9,47.98,5.94
+Sanofi India,SANOFI,Pharmaceuticals - Multinational,8927.4,4.28,20.26,2087.55,20559.82,36.19,42.02,29.2,71.42,3.97
+Astral,ASTRAL,Plastics Products,2107.45,4.72,17.76,446.79,56611.8,103.73,29.19,93.88,27.7,4.55
+Finolex Inds.,FINPIPE,Plastics Products,307.05,2.72,3.45,112.75,19051.72,41.83,29.19,25.28,5.18,9.07
+Prince Pipes,PRINCEPIPE,Plastics Products,635,2.9,4.62,219.26,7020.61,41.48,29.19,34.62,15.36,2.57
+Supreme Inds.,SUPREMEIND,Plastics Products,5554.25,3.16,13.8,1758.34,70553.88,65.97,29.19,34.64,25.82,3.04
+Adani Energy Sol,ADANIENSOL,Power Generation And Supply,1098.5,5.48,9.67,200.47,122536.82,107.73,31.27,132.32,45.38,7.06
+Adani Green,ADANIGREEN,Power Generation And Supply,1888.75,14.77,30.33,127.89,299184.16,239.11,31.27,519.48,60.46,6.65
+Adani Power,ADANIPOWER,Power Generation And Supply,709.6,1.58,6.29,450.37,273688.49,13.11,31.27,11.19,30.58,0.15
+CESC,CESC,Power Generation And Supply,146.8,1.11,1.73,132.29,19459.36,13.78,31.27,7.78,31.71,1.86
+JSW Energy,JSWENERGY,Power Generation And Supply,618.65,3.85,4.84,160.75,108125.69,62.7,31.27,41.16,17.89,3.02
+NHPC Ltd,NHPC,Power Generation And Supply,105.61,3.17,2.79,33.35,106085.49,29.26,31.27,10.59,14.93,3.2
+NLC India,NLCINDIA,Power Generation And Supply,241.05,1.97,1.98,122.21,33424.84,17.98,31.27,8.37,27.73,4.44
+NTPC,NTPC,Power Generation And Supply,371.45,1.38,2.34,268.67,360182.62,18.45,31.27,9.55,36.54,1.99
+Power Grid Corpn,POWERGRID,Power Generation And Supply,316.9,2.31,3.35,137.04,294736.1,18.84,31.27,10.75,43.88,2.46
+SJVN,SJVN,Power Generation And Supply,147.1,4.55,4.04,32.35,57807.26,64.7,31.27,10.26,16.33,25.47
+Tata Power Co.,TATAPOWER,Power Generation And Supply,447.85,2.8,4.44,159.72,143103.3,40.63,31.27,30.79,26.7,0.54
+Torrent Power,TORNTPOWER,Power Generation And Supply,1410.7,3.63,5.63,388.39,67800.6,37.01,31.27,16.85,42,2.3
+Doms Industries,DOMS,Printing & Stationery,1792.55,,,,,,,,,
+KSB,KSB,Pumps,4555.75,3.33,12.2,1366.94,15858.61,74.64,38.76,39.37,23.4,3.12
+B P C L,BPCL,Refineries,648.4,0.78,1.9,836.54,140654.33,5.28,7.93,6.44,13.59,0.19
+C P C L,CHENNPETRO,Refineries,929.6,0.68,1.64,1375.2,13842.87,5.17,7.93,3.24,57.83,0.07
+H P C L,HINDPETRO,Refineries,534.7,0.88,1.59,608.02,75849.69,4.8,7.93,4.38,-15.07,0.25
+I O C L,IOC,Refineries,167.85,0.75,1.29,222.78,237025.01,5.68,7.93,4.97,15.45,0.29
+M R P L,MRPL,Refineries,211.65,1.86,2.83,113.69,37093.86,10.31,7.93,5.32,40.86,0.17
+Reliance Industr,RELIANCE,Refineries,2967,2.83,2.49,1049.69,2007380.12,28.81,7.93,25.68,18.59,2.42
+RHI Magnesita,RHIM,Refractories / Intermediates,670.2,,,,,,,,,
+GE Shipping Co,GESHIP,Shipping,1022,0.73,1.21,1401.33,14590.81,5.55,18.21,6.54,23.4,0.03
+Adani Wilmar,AWL,Solvent Extraction,346.65,8.03,5.42,43.15,45053.37,272.56,18.6,102.96,17.59,-18.01
+Guj. Ambuja Exp,GAEL,Solvent Extraction,150.85,1.53,2.51,98.34,6919.04,20.01,18.6,13.8,17.21,1.71
+Marico,MARICO,Solvent Extraction,606,5.02,20.49,120.63,78422.55,52.93,18.6,53.43,46.9,8.88
+Patanjali Foods,PATANJALI,Solvent Extraction,1412.95,2.49,5.03,567.9,51148.06,66.85,18.6,46.09,12.74,1.15
+APL Apollo Tubes,APLAPOLLO,Steel - Large,1697,3.77,13.12,450.42,47095.91,64.31,19.24,50.21,31.8,1.71
+JSW Steel,JSWSTEEL,Steel - Large,916.85,1.72,2.91,533.74,224211.39,26.55,19.24,19.63,25.11,11.49
+Jai Balaji Inds.,JAIBALAJI,Steel - Large,925,3.12,10.03,296.52,15138.37,17.22,19.24,10.93,22.98,0.34
+Jindal Saw,JINDALSAW,Steel - Large,542.25,0.68,1.71,799.73,17338.63,10.91,19.24,12.08,19.57,0.41
+Jindal Stain.,JSL,Steel - Large,713.65,1.6,4.1,445.17,58764.41,22.36,19.24,8.54,27,0.28
+S A I L,SAIL,Steel - Large,167.75,1.54,1.2,108.64,69289.57,18.73,19.24,7.85,14.29,2.67
+Shyam Metalics,SHYAMMETL,Steel - Large,651.95,0.62,1.89,1048.61,18197.97,17.7,19.24,7.4,16.14,1.57
+Tata Steel,TATASTEEL,Steel - Large,174.15,,,,,,,,,
+Tube Investments,TIINDIA,Steel - Large,3803.15,3.14,14.41,1212.55,73555.04,88.93,19.24,62.73,41.52,3.13
+Welspun Corp,WELCORP,Steel - Large,600.75,1.16,3.15,518.55,15719.62,14.6,19.24,15.23,15.06,-730
+Godawari Power,GPIL,Steel - Medium / Small,949,1.01,2.89,941.05,12901.17,13.78,24.01,5.03,23.95,0.46
+Mah. Seamless,MAHSEAMLES,Steel - Medium / Small,773.2,1.14,1.8,676.24,10360.24,10.91,24.01,8.17,16.78,0.41
+NMDC Steel,NSLNISP,Steel - Medium / Small,64.85,,,,,,,,,
+Ratnamani Metals,RATNAMANI,Steel - Medium / Small,3319.35,2.19,7.39,1513.21,23266,37.31,24.01,35.02,27.95,1.89
+Usha Martin,USHAMART,Steel - Medium / Small,358.05,2.49,4.59,144.05,10911.27,25.68,24.01,16.4,21.42,0.49
+Jindal Steel,JINDALSTEL,Steel - Sponge Iron,1066.4,1.78,2.49,598.21,108782.22,18.39,16.64,10.34,21.21,0.3
+Balrampur Chini,BALRAMCHIN,Sugar,377.4,1.46,2.22,258.99,7614,14.25,12.54,18.35,18.33,-12.08
+EID Parry,EIDPARRY,Sugar,646.3,0.83,1.74,777.89,11472.97,13.4,12.54,10.8,58.43,0.49
+Sh.Renuka Sugar,RENUKA,Sugar,41.94,,,,,,,,,
+Triven.Engg.Ind.,TRIVENI,Sugar,347.55,1.66,2.62,208.82,7607.78,19.23,12.54,16.51,19.77,1.51
+CCL Products,CCL,Tea,566.05,1.62,4.49,349.9,7558.33,30.24,30.17,29.82,30.74,3.01
+Tata Consumer,TATACONSUM,Tea,1118.75,5.7,6.58,196.28,106598.34,77.64,30.17,73.39,12.77,2.83
+ITI,ITI,Telecommunications - Equipment,318.65,,,,,,,,,
+Tejas Networks,TEJASNET,Telecommunications - Equipment,1175.15,6.23,6.33,188.6,20060.76,318.54,71.01,77.95,1.2,-20.96
+Bharti Airtel,BHARTIARTL,Telecommunications - Service Provider,1372.7,6.05,9.51,226.82,816862.56,68.56,49.76,75.65,94.39,0.56
+Railtel Corpn.,RAILTEL,Telecommunications - Service Provider,437.85,2.43,7.76,180.23,14052.26,53,49.76,23.98,27.24,3.58
+Tata Comm,TATACOMM,Telecommunications - Service Provider,1828.6,9.3,29.21,196.72,52115.12,48.14,49.76,26.77,284.14,0.66
+Tata Tele. Mah.,TTML,Telecommunications - Service Provider,77.1,,,,,,,,,
+Vodafone Idea,IDEA,Telecommunications - Service Provider,13.96,,,,,,,,,
+Trident,TRIDENT,Textiles - Cotton/Blended,37.91,4.33,4.49,8.76,19319.19,55.32,24.94,33.73,23.72,-50.75
+Vardhman Textile,VTL,Textiles - Cotton/Blended,439.35,1.52,1.41,289.69,12704.91,20.1,24.94,12.83,13.71,-28.71
+Grasim Inds,GRASIM,Textiles - Manmade,2445.3,1.59,1.81,1537.34,163576.79,27.93,27.12,18,27.17,1.52
+Alok Industries,ALOKINDS,Textiles - Processing,26.56,,,,,,,,,
+Aditya Bir. Fas.,ABFRL,Textiles - Products,277.9,,,,,,,,,
+K P R Mill Ltd,KPRMILL,Textiles - Products,798.55,2.96,6.3,269.52,27295.52,33.88,33.07,24.87,28.61,1.75
+Page Industries,PAGEIND,Textiles - Products,35240.6,3.81,25.69,9244.77,39293.26,72.84,33.07,82.26,70.88,6.9
+Raymond,RAYMOND,Textiles - Products,2244.2,1.07,3.24,2104.01,14940.48,8.89,28.94,13.08,28.33,0.15
+Welspun Living,WELSPUNLIV,Textiles - Products,144.25,1.73,3.19,83.26,14018.34,20.9,28.94,22.08,19.9,1.59
+Adani Enterp.,ADANIENT,Trading,3342.8,9.72,9.7,343.85,381079.55,102.94,36.73,139.13,15.91,2.32
+Aegis Logistics,AEGISCHEM,Trading,635.3,2.07,6.16,306.65,22299.05,43.4,36.73,26.74,28.08,2.4
+Avenue Super.,DMART,Trading,4776.85,5.03,16.61,950.45,310845.43,122.6,62.11,120.93,23.09,5.29
+Cello World,CELLO,Trading,924.5,2.2,20.05,419.73,19620.8,73.75,36.73,60.26,131.29,
+FSN E-Commerce,NYKAA,Trading,176.9,33.13,40.06,5.34,50526.32,1565.67,51.91,1495,25.33,57.8
+Honasa Consumer,HONASA,Trading,418.5,,,,,,,,,
+MMTC,MMTC,Trading,75.69,8.24,7.87,9.19,11353.5,119.5,36.73,53.33,9.64,2.48
+Medplus Health,MEDPLUS,Trading,713.75,4.61,5.61,154.83,8531.96,145.69,62.11,148.65,22.05,63.9
+Redington,REDINGTON,Trading,209.35,0.83,2.2,252.43,16366.47,13.39,36.73,10.09,32.82,0.75
+Trent,TRENT,Trading,4691.7,6.22,41.01,753.9,166784.01,184.4,62.11,176.13,40.96,3.26
+Vedant Fashions,MANYAVAR,Trading,1038.9,3.47,15.78,299.75,25231.73,60.94,62.11,76.78,42.65,3.28
+Indus Towers,INDUSTOWER,Transmisson Line Towers / Equipment,343.5,1.63,3.41,210.62,92571.06,15.4,23.33,13.7,36.06,0.71
+K E C Intl.,KEC,Transmisson Line Towers / Equipment,784.85,3.05,4.98,257.33,20177.59,58.17,62.36,36.77,26.72,-8.44
+Kalpataru Proj.,KPIL,Transmisson Line Towers / Equipment,1223.5,1.9,3.93,644.09,19875.31,38.99,62.36,18.83,34.56,22.94
+Interglobe Aviat,INDIGO,Transport - Airlines,4405.3,,,,,,,,,
+Easy Trip Plann.,EASEMYTRIP,Travel Agencies,45.45,1.18,13.09,38.67,8053.9,48.35,52.15,62.66,63.31,0.47
+I R C T C,IRCTC,Travel Agencies,1121.15,3.26,31.52,343.51,89692,78.94,79.27,69.7,66.5,2.26
+Apollo Tyres,APOLLOTYRE,Tyres,482.9,1.85,2.22,261.61,30669.04,17.3,23.87,19.03,24.87,1.06
+Balkrishna Inds,BALKRISIND,Tyres,3052.75,2.05,6.73,1491.42,59014.88,40.13,23.87,33.93,18.56,2.79
+CEAT,CEATLTD,Tyres,2374.85,1.13,2.37,2100.67,9606.37,14.12,23.87,22.23,25.53,0.74
+MRF,MRF,Tyres,129516.4,2.09,3.3,62008.36,54914.95,26.4,23.87,36.54,15.67,2.03

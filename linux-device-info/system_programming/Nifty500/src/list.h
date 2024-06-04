@@ -10,14 +10,14 @@ struct nifty_filed {
 	char name[BUF_SIZE];
 	char nse_code[BUF_SIZE];
 	char industries[BUF_SIZE];
-	float cmp_to_iv;
-	float price_to_book;
-	float market_capitalizations;
-	float pe;
-	float industry_pe;
-	float peg;
+	char cmp_to_iv[BUF_SIZE];
+	char price_to_book[BUF_SIZE];
+	char market_capitalizations[BUF_SIZE];
+	char pe[BUF_SIZE];
+	char industry_pe[BUF_SIZE];
+	char peg[BUF_SIZE];
 #endif
-	float current_price;
+	char current_price[BUF_SIZE];
 
 };
 

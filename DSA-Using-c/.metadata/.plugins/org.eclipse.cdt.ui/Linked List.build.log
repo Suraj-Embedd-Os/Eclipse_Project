@@ -1,0 +1,26 @@
+16:32:31 **** Incremental Build of configuration Debug for project Linked List ****
+make all 
+Building file: ../src/Singly_Linked_List.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Singly_Linked_List.d" -MT"src/Singly_Linked_List.o" -o "src/Singly_Linked_List.o" "../src/Singly_Linked_List.c"
+../src/Singly_Linked_List.c: In function ‘delatbeg’:
+../src/Singly_Linked_List.c:187:9: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
+  187 |         display();
+      |         ^~~~~~~
+../src/Singly_Linked_List.c: At top level:
+../src/Singly_Linked_List.c:302:6: warning: conflicting types for ‘display’; have ‘void()’
+  302 | void display()
+      |      ^~~~~~~
+../src/Singly_Linked_List.c:187:9: note: previous implicit declaration of ‘display’ with type ‘void()’
+  187 |         display();
+      |         ^~~~~~~
+Finished building: ../src/Singly_Linked_List.c
+ 
+Building target: Linked List
+Invoking: GCC C Linker
+gcc  -o "Linked List" ./src/Singly_Linked_List.o   
+Finished building target: Linked List
+ 
+
+16:32:31 Build Finished. 0 errors, 2 warnings. (took 470ms)
+

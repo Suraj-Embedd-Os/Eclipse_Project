@@ -1,0 +1,15 @@
+14:49:12 **** Incremental Build of configuration Debug for project file_sort ****
+make all 
+Building file: ../src/file_sort.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/file_sort.d" -MT"src/file_sort.o" -o "src/file_sort.o" "../src/file_sort.c"
+Finished building: ../src/file_sort.c
+ 
+Building target: file_sort
+Invoking: GCC C Linker
+gcc  -o "file_sort" ./src/file_sort.o   
+Finished building target: file_sort
+ 
+
+14:49:12 Build Finished. 0 errors, 0 warnings. (took 269ms)
+
