@@ -1,483 +1,170 @@
-16:09:25 **** Clean-only build of configuration Debug for project Linked List ****
+15:57:40 **** Clean-only build of configuration Debug for project Linked List ****
 make clean 
-rm -rf ./src/Singly_Linked_List.d ./src/Singly_Linked_List.o
+rm -rf ./src/Doubly_Linked_List.d ./src/Doubly_Linked_List.o
 rm -rf Linked\\ List
  
-16:09:25 **** Build of configuration Debug for project Linked List ****
+15:57:40 **** Incremental Build of configuration Debug for project Linked List ****
 make all 
-Building file: ../src/Singly_Linked_List.c
+Building file: ../src/Doubly_Circular_Linked_List.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Singly_Linked_List.d" -MT"src/Singly_Linked_List.o" -o "src/Singly_Linked_List.o" "../src/Singly_Linked_List.c"
-../src/Singly_Linked_List.c: In function ‘delatbeg’:
-../src/Singly_Linked_List.c:187:9: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
-  187 |         display();
-      |         ^~~~~~~
-../src/Singly_Linked_List.c: At top level:
-../src/Singly_Linked_List.c:300:6: warning: conflicting types for ‘display’; have ‘void()’
-  300 | void display()
-      |      ^~~~~~~
-../src/Singly_Linked_List.c:187:9: note: previous implicit declaration of ‘display’ with type ‘void()’
-  187 |         display();
-      |         ^~~~~~~
-Finished building: ../src/Singly_Linked_List.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Doubly_Circular_Linked_List.d" -MT"src/Doubly_Circular_Linked_List.o" -o "src/Doubly_Circular_Linked_List.o" "../src/Doubly_Circular_Linked_List.c"
+Finished building: ../src/Doubly_Circular_Linked_List.c
  
 Building target: Linked List
 Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Singly_Linked_List.o   
+gcc  -o "Linked List" ./src/Doubly_Circular_Linked_List.o   
 Finished building target: Linked List
  
-16:09:37 **** Incremental Build of configuration Debug for project Linked List ****
+15:57:49 **** Incremental Build of configuration Debug for project Linked List ****
 make all 
 make: Nothing to be done for 'all'.
-16:10:00 **** Incremental Build of configuration Debug for project Linked List ****
+15:58:16 **** Incremental Build of configuration Debug for project Linked List ****
 make all 
-Building file: ../src/Singly_Linked_List.c
+Building file: ../src/Doubly_Circular_Linked_List.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Singly_Linked_List.d" -MT"src/Singly_Linked_List.o" -o "src/Singly_Linked_List.o" "../src/Singly_Linked_List.c"
-../src/Singly_Linked_List.c: In function ‘delatbeg’:
-../src/Singly_Linked_List.c:187:9: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
-  187 |         display();
-      |         ^~~~~~~
-../src/Singly_Linked_List.c: At top level:
-../src/Singly_Linked_List.c:300:6: warning: conflicting types for ‘display’; have ‘void()’
-  300 | void display()
-      |      ^~~~~~~
-../src/Singly_Linked_List.c:187:9: note: previous implicit declaration of ‘display’ with type ‘void()’
-  187 |         display();
-      |         ^~~~~~~
-Finished building: ../src/Singly_Linked_List.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Doubly_Circular_Linked_List.d" -MT"src/Doubly_Circular_Linked_List.o" -o "src/Doubly_Circular_Linked_List.o" "../src/Doubly_Circular_Linked_List.c"
+Finished building: ../src/Doubly_Circular_Linked_List.c
  
 Building target: Linked List
 Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Singly_Linked_List.o   
+gcc  -o "Linked List" ./src/Doubly_Circular_Linked_List.o   
 Finished building target: Linked List
  
-16:10:21 **** Incremental Build of configuration Debug for project Linked List ****
+15:58:49 **** Incremental Build of configuration Debug for project Linked List ****
 make all 
-Building file: ../src/Singly_Linked_List.c
+Building file: ../src/Doubly_Circular_Linked_List.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Singly_Linked_List.d" -MT"src/Singly_Linked_List.o" -o "src/Singly_Linked_List.o" "../src/Singly_Linked_List.c"
-../src/Singly_Linked_List.c: In function ‘delatbeg’:
-../src/Singly_Linked_List.c:187:9: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
-  187 |         display();
-      |         ^~~~~~~
-../src/Singly_Linked_List.c: At top level:
-../src/Singly_Linked_List.c:300:6: warning: conflicting types for ‘display’; have ‘void()’
-  300 | void display()
-      |      ^~~~~~~
-../src/Singly_Linked_List.c:187:9: note: previous implicit declaration of ‘display’ with type ‘void()’
-  187 |         display();
-      |         ^~~~~~~
-Finished building: ../src/Singly_Linked_List.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Doubly_Circular_Linked_List.d" -MT"src/Doubly_Circular_Linked_List.o" -o "src/Doubly_Circular_Linked_List.o" "../src/Doubly_Circular_Linked_List.c"
+Finished building: ../src/Doubly_Circular_Linked_List.c
  
 Building target: Linked List
 Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Singly_Linked_List.o   
+gcc  -o "Linked List" ./src/Doubly_Circular_Linked_List.o   
 Finished building target: Linked List
  
-16:11:14 **** Incremental Build of configuration Debug for project Linked List ****
+16:08:52 **** Incremental Build of configuration Debug for project Linked List ****
+make all 
+Building file: ../src/Doubly_Circular_Linked_List.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Doubly_Circular_Linked_List.d" -MT"src/Doubly_Circular_Linked_List.o" -o "src/Doubly_Circular_Linked_List.o" "../src/Doubly_Circular_Linked_List.c"
+Finished building: ../src/Doubly_Circular_Linked_List.c
+ 
+Building target: Linked List
+Invoking: GCC C Linker
+gcc  -o "Linked List" ./src/Doubly_Circular_Linked_List.o   
+Finished building target: Linked List
+ 
+16:10:27 **** Incremental Build of configuration Debug for project Linked List ****
 make all 
 make: Nothing to be done for 'all'.
-16:12:56 **** Incremental Build of configuration Debug for project Linked List ****
+16:16:35 **** Incremental Build of configuration Debug for project Linked List ****
 make all 
-Building file: ../src/Singly_Linked_List.c
+Building file: ../src/Doubly_Circular_Linked_List.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Singly_Linked_List.d" -MT"src/Singly_Linked_List.o" -o "src/Singly_Linked_List.o" "../src/Singly_Linked_List.c"
-../src/Singly_Linked_List.c: In function ‘delatbeg’:
-../src/Singly_Linked_List.c:187:9: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
-  187 |         display();
-      |         ^~~~~~~
-../src/Singly_Linked_List.c: At top level:
-../src/Singly_Linked_List.c:301:6: warning: conflicting types for ‘display’; have ‘void()’
-  301 | void display()
-      |      ^~~~~~~
-../src/Singly_Linked_List.c:187:9: note: previous implicit declaration of ‘display’ with type ‘void()’
-  187 |         display();
-      |         ^~~~~~~
-Finished building: ../src/Singly_Linked_List.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Doubly_Circular_Linked_List.d" -MT"src/Doubly_Circular_Linked_List.o" -o "src/Doubly_Circular_Linked_List.o" "../src/Doubly_Circular_Linked_List.c"
+Finished building: ../src/Doubly_Circular_Linked_List.c
  
 Building target: Linked List
 Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Singly_Linked_List.o   
+gcc  -o "Linked List" ./src/Doubly_Circular_Linked_List.o   
 Finished building target: Linked List
  
-16:13:11 **** Incremental Build of configuration Debug for project Linked List ****
+16:18:43 **** Incremental Build of configuration Debug for project Linked List ****
 make all 
-Building file: ../src/Singly_Linked_List.c
+Building file: ../src/Doubly_Circular_Linked_List.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Singly_Linked_List.d" -MT"src/Singly_Linked_List.o" -o "src/Singly_Linked_List.o" "../src/Singly_Linked_List.c"
-../src/Singly_Linked_List.c: In function ‘delatbeg’:
-../src/Singly_Linked_List.c:187:9: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
-  187 |         display();
-      |         ^~~~~~~
-../src/Singly_Linked_List.c: At top level:
-../src/Singly_Linked_List.c:301:6: warning: conflicting types for ‘display’; have ‘void()’
-  301 | void display()
-      |      ^~~~~~~
-../src/Singly_Linked_List.c:187:9: note: previous implicit declaration of ‘display’ with type ‘void()’
-  187 |         display();
-      |         ^~~~~~~
-Finished building: ../src/Singly_Linked_List.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Doubly_Circular_Linked_List.d" -MT"src/Doubly_Circular_Linked_List.o" -o "src/Doubly_Circular_Linked_List.o" "../src/Doubly_Circular_Linked_List.c"
+../src/Doubly_Circular_Linked_List.c: In function ‘insertAtEnd’:
+../src/Doubly_Circular_Linked_List.c:107:18: error: expected ‘;’ before ‘}’ token
+  107 |         display()
+      |                  ^
+      |                  ;
+  108 | }
+      | ~                 
+make: *** [src/subdir.mk:20: src/Doubly_Circular_Linked_List.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:18:52 **** Incremental Build of configuration Debug for project Linked List ****
+make all 
+Building file: ../src/Doubly_Circular_Linked_List.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Doubly_Circular_Linked_List.d" -MT"src/Doubly_Circular_Linked_List.o" -o "src/Doubly_Circular_Linked_List.o" "../src/Doubly_Circular_Linked_List.c"
+Finished building: ../src/Doubly_Circular_Linked_List.c
  
 Building target: Linked List
 Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Singly_Linked_List.o   
+gcc  -o "Linked List" ./src/Doubly_Circular_Linked_List.o   
 Finished building target: Linked List
  
-16:13:34 **** Incremental Build of configuration Debug for project Linked List ****
+15:13:00 **** Clean-only build of configuration Debug for project Linked List ****
+make clean 
+rm -rf ./src/Doubly_Circular_Linked_List.d ./src/Doubly_Circular_Linked_List.o
+rm -rf Linked\\ List
+ 
+15:13:01 **** Build of configuration Debug for project Linked List ****
 make all 
-make: Nothing to be done for 'all'.
-16:17:51 **** Incremental Build of configuration Debug for project Linked List ****
-make all 
-Building file: ../src/Singly_Linked_List.c
+Building file: ../src/Doubly_Linked_List.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Singly_Linked_List.d" -MT"src/Singly_Linked_List.o" -o "src/Singly_Linked_List.o" "../src/Singly_Linked_List.c"
-../src/Singly_Linked_List.c: In function ‘delatbeg’:
-../src/Singly_Linked_List.c:187:9: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
-  187 |         display();
-      |         ^~~~~~~
-../src/Singly_Linked_List.c: At top level:
-../src/Singly_Linked_List.c:307:6: warning: conflicting types for ‘display’; have ‘void()’
-  307 | void display()
-      |      ^~~~~~~
-../src/Singly_Linked_List.c:187:9: note: previous implicit declaration of ‘display’ with type ‘void()’
-  187 |         display();
-      |         ^~~~~~~
-Finished building: ../src/Singly_Linked_List.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Doubly_Linked_List.d" -MT"src/Doubly_Linked_List.o" -o "src/Doubly_Linked_List.o" "../src/Doubly_Linked_List.c"
+../src/Doubly_Linked_List.c: In function ‘reverse’:
+../src/Doubly_Linked_List.c:210:22: warning: unused variable ‘temp’ [-Wunused-variable]
+  210 |         struct Node *temp = head;
+      |                      ^~~~
+Finished building: ../src/Doubly_Linked_List.c
  
 Building target: Linked List
 Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Singly_Linked_List.o   
+gcc  -o "Linked List" ./src/Doubly_Linked_List.o   
 Finished building target: Linked List
  
-16:18:03 **** Incremental Build of configuration Debug for project Linked List ****
+15:13:39 **** Incremental Build of configuration Debug for project Linked List ****
 make all 
-make: Nothing to be done for 'all'.
-16:18:20 **** Incremental Build of configuration Debug for project Linked List ****
-make all 
-make: Nothing to be done for 'all'.
-16:18:58 **** Incremental Build of configuration Debug for project Linked List ****
-make all 
-Building file: ../src/Singly_Linked_List.c
+Building file: ../src/Doubly_Linked_List.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Singly_Linked_List.d" -MT"src/Singly_Linked_List.o" -o "src/Singly_Linked_List.o" "../src/Singly_Linked_List.c"
-../src/Singly_Linked_List.c: In function ‘delatbeg’:
-../src/Singly_Linked_List.c:187:9: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
-  187 |         display();
-      |         ^~~~~~~
-../src/Singly_Linked_List.c: At top level:
-../src/Singly_Linked_List.c:308:6: warning: conflicting types for ‘display’; have ‘void()’
-  308 | void display()
-      |      ^~~~~~~
-../src/Singly_Linked_List.c:187:9: note: previous implicit declaration of ‘display’ with type ‘void()’
-  187 |         display();
-      |         ^~~~~~~
-Finished building: ../src/Singly_Linked_List.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Doubly_Linked_List.d" -MT"src/Doubly_Linked_List.o" -o "src/Doubly_Linked_List.o" "../src/Doubly_Linked_List.c"
+Finished building: ../src/Doubly_Linked_List.c
  
 Building target: Linked List
 Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Singly_Linked_List.o   
+gcc  -o "Linked List" ./src/Doubly_Linked_List.o   
 Finished building target: Linked List
  
-16:19:12 **** Incremental Build of configuration Debug for project Linked List ****
+15:23:15 **** Incremental Build of configuration Debug for project Linked List ****
 make all 
-Building file: ../src/Singly_Linked_List.c
+Building file: ../src/Doubly_Linked_List.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Singly_Linked_List.d" -MT"src/Singly_Linked_List.o" -o "src/Singly_Linked_List.o" "../src/Singly_Linked_List.c"
-../src/Singly_Linked_List.c: In function ‘delatbeg’:
-../src/Singly_Linked_List.c:187:9: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
-  187 |         display();
-      |         ^~~~~~~
-../src/Singly_Linked_List.c: At top level:
-../src/Singly_Linked_List.c:308:6: warning: conflicting types for ‘display’; have ‘void()’
-  308 | void display()
-      |      ^~~~~~~
-../src/Singly_Linked_List.c:187:9: note: previous implicit declaration of ‘display’ with type ‘void()’
-  187 |         display();
-      |         ^~~~~~~
-Finished building: ../src/Singly_Linked_List.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Doubly_Linked_List.d" -MT"src/Doubly_Linked_List.o" -o "src/Doubly_Linked_List.o" "../src/Doubly_Linked_List.c"
+../src/Doubly_Linked_List.c: In function ‘reverse’:
+../src/Doubly_Linked_List.c:214:25: warning: comparison between pointer and integer
+  214 |         while(curr-next != NULL){
+      |                         ^~
+Finished building: ../src/Doubly_Linked_List.c
  
 Building target: Linked List
 Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Singly_Linked_List.o   
+gcc  -o "Linked List" ./src/Doubly_Linked_List.o   
 Finished building target: Linked List
  
-16:25:43 **** Incremental Build of configuration Debug for project Linked List ****
+15:23:36 **** Incremental Build of configuration Debug for project Linked List ****
 make all 
-Building file: ../src/Singly_Linked_List.c
+Building file: ../src/Doubly_Linked_List.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Singly_Linked_List.d" -MT"src/Singly_Linked_List.o" -o "src/Singly_Linked_List.o" "../src/Singly_Linked_List.c"
-../src/Singly_Linked_List.c: In function ‘delatbeg’:
-../src/Singly_Linked_List.c:187:9: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
-  187 |         display();
-      |         ^~~~~~~
-../src/Singly_Linked_List.c: At top level:
-../src/Singly_Linked_List.c:301:6: warning: conflicting types for ‘display’; have ‘void()’
-  301 | void display()
-      |      ^~~~~~~
-../src/Singly_Linked_List.c:187:9: note: previous implicit declaration of ‘display’ with type ‘void()’
-  187 |         display();
-      |         ^~~~~~~
-Finished building: ../src/Singly_Linked_List.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Doubly_Linked_List.d" -MT"src/Doubly_Linked_List.o" -o "src/Doubly_Linked_List.o" "../src/Doubly_Linked_List.c"
+Finished building: ../src/Doubly_Linked_List.c
  
 Building target: Linked List
 Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Singly_Linked_List.o   
+gcc  -o "Linked List" ./src/Doubly_Linked_List.o   
 Finished building target: Linked List
  
-16:26:24 **** Incremental Build of configuration Debug for project Linked List ****
+15:26:17 **** Incremental Build of configuration Debug for project Linked List ****
 make all 
-Building file: ../src/Singly_Linked_List.c
+Building file: ../src/Doubly_Linked_List.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Singly_Linked_List.d" -MT"src/Singly_Linked_List.o" -o "src/Singly_Linked_List.o" "../src/Singly_Linked_List.c"
-../src/Singly_Linked_List.c: In function ‘delatbeg’:
-../src/Singly_Linked_List.c:187:9: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
-  187 |         display();
-      |         ^~~~~~~
-../src/Singly_Linked_List.c: At top level:
-../src/Singly_Linked_List.c:302:6: warning: conflicting types for ‘display’; have ‘void()’
-  302 | void display()
-      |      ^~~~~~~
-../src/Singly_Linked_List.c:187:9: note: previous implicit declaration of ‘display’ with type ‘void()’
-  187 |         display();
-      |         ^~~~~~~
-Finished building: ../src/Singly_Linked_List.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Doubly_Linked_List.d" -MT"src/Doubly_Linked_List.o" -o "src/Doubly_Linked_List.o" "../src/Doubly_Linked_List.c"
+Finished building: ../src/Doubly_Linked_List.c
  
 Building target: Linked List
 Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Singly_Linked_List.o   
-Finished building target: Linked List
- 
-16:26:52 **** Incremental Build of configuration Debug for project Linked List ****
-make all 
-Building file: ../src/Singly_Linked_List.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Singly_Linked_List.d" -MT"src/Singly_Linked_List.o" -o "src/Singly_Linked_List.o" "../src/Singly_Linked_List.c"
-../src/Singly_Linked_List.c: In function ‘delatbeg’:
-../src/Singly_Linked_List.c:187:9: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
-  187 |         display();
-      |         ^~~~~~~
-../src/Singly_Linked_List.c: At top level:
-../src/Singly_Linked_List.c:302:6: warning: conflicting types for ‘display’; have ‘void()’
-  302 | void display()
-      |      ^~~~~~~
-../src/Singly_Linked_List.c:187:9: note: previous implicit declaration of ‘display’ with type ‘void()’
-  187 |         display();
-      |         ^~~~~~~
-Finished building: ../src/Singly_Linked_List.c
- 
-Building target: Linked List
-Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Singly_Linked_List.o   
-Finished building target: Linked List
- 
-16:27:02 **** Incremental Build of configuration Debug for project Linked List ****
-make all 
-Building file: ../src/Singly_Linked_List.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Singly_Linked_List.d" -MT"src/Singly_Linked_List.o" -o "src/Singly_Linked_List.o" "../src/Singly_Linked_List.c"
-../src/Singly_Linked_List.c: In function ‘delatbeg’:
-../src/Singly_Linked_List.c:187:9: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
-  187 |         display();
-      |         ^~~~~~~
-../src/Singly_Linked_List.c: At top level:
-../src/Singly_Linked_List.c:302:6: warning: conflicting types for ‘display’; have ‘void()’
-  302 | void display()
-      |      ^~~~~~~
-../src/Singly_Linked_List.c:187:9: note: previous implicit declaration of ‘display’ with type ‘void()’
-  187 |         display();
-      |         ^~~~~~~
-Finished building: ../src/Singly_Linked_List.c
- 
-Building target: Linked List
-Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Singly_Linked_List.o   
-Finished building target: Linked List
- 
-16:28:13 **** Incremental Build of configuration Debug for project Linked List ****
-make all 
-Building file: ../src/Singly_Linked_List.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Singly_Linked_List.d" -MT"src/Singly_Linked_List.o" -o "src/Singly_Linked_List.o" "../src/Singly_Linked_List.c"
-../src/Singly_Linked_List.c: In function ‘delatbeg’:
-../src/Singly_Linked_List.c:187:9: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
-  187 |         display();
-      |         ^~~~~~~
-../src/Singly_Linked_List.c: At top level:
-../src/Singly_Linked_List.c:302:6: warning: conflicting types for ‘display’; have ‘void()’
-  302 | void display()
-      |      ^~~~~~~
-../src/Singly_Linked_List.c:187:9: note: previous implicit declaration of ‘display’ with type ‘void()’
-  187 |         display();
-      |         ^~~~~~~
-Finished building: ../src/Singly_Linked_List.c
- 
-Building target: Linked List
-Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Singly_Linked_List.o   
-Finished building target: Linked List
- 
-16:28:52 **** Incremental Build of configuration Debug for project Linked List ****
-make all 
-Building file: ../src/Singly_Linked_List.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Singly_Linked_List.d" -MT"src/Singly_Linked_List.o" -o "src/Singly_Linked_List.o" "../src/Singly_Linked_List.c"
-../src/Singly_Linked_List.c: In function ‘delatbeg’:
-../src/Singly_Linked_List.c:187:9: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
-  187 |         display();
-      |         ^~~~~~~
-../src/Singly_Linked_List.c: At top level:
-../src/Singly_Linked_List.c:302:6: warning: conflicting types for ‘display’; have ‘void()’
-  302 | void display()
-      |      ^~~~~~~
-../src/Singly_Linked_List.c:187:9: note: previous implicit declaration of ‘display’ with type ‘void()’
-  187 |         display();
-      |         ^~~~~~~
-Finished building: ../src/Singly_Linked_List.c
- 
-Building target: Linked List
-Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Singly_Linked_List.o   
-Finished building target: Linked List
- 
-16:28:59 **** Incremental Build of configuration Debug for project Linked List ****
-make all 
-Building file: ../src/Singly_Linked_List.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Singly_Linked_List.d" -MT"src/Singly_Linked_List.o" -o "src/Singly_Linked_List.o" "../src/Singly_Linked_List.c"
-../src/Singly_Linked_List.c: In function ‘delatbeg’:
-../src/Singly_Linked_List.c:187:9: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
-  187 |         display();
-      |         ^~~~~~~
-../src/Singly_Linked_List.c: At top level:
-../src/Singly_Linked_List.c:301:6: warning: conflicting types for ‘display’; have ‘void()’
-  301 | void display()
-      |      ^~~~~~~
-../src/Singly_Linked_List.c:187:9: note: previous implicit declaration of ‘display’ with type ‘void()’
-  187 |         display();
-      |         ^~~~~~~
-Finished building: ../src/Singly_Linked_List.c
- 
-Building target: Linked List
-Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Singly_Linked_List.o   
-Finished building target: Linked List
- 
-16:29:20 **** Incremental Build of configuration Debug for project Linked List ****
-make all 
-Building file: ../src/Singly_Linked_List.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Singly_Linked_List.d" -MT"src/Singly_Linked_List.o" -o "src/Singly_Linked_List.o" "../src/Singly_Linked_List.c"
-../src/Singly_Linked_List.c: In function ‘delatbeg’:
-../src/Singly_Linked_List.c:187:9: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
-  187 |         display();
-      |         ^~~~~~~
-../src/Singly_Linked_List.c: At top level:
-../src/Singly_Linked_List.c:300:6: warning: conflicting types for ‘display’; have ‘void()’
-  300 | void display()
-      |      ^~~~~~~
-../src/Singly_Linked_List.c:187:9: note: previous implicit declaration of ‘display’ with type ‘void()’
-  187 |         display();
-      |         ^~~~~~~
-Finished building: ../src/Singly_Linked_List.c
- 
-Building target: Linked List
-Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Singly_Linked_List.o   
-Finished building target: Linked List
- 
-16:31:03 **** Incremental Build of configuration Debug for project Linked List ****
-make all 
-Building file: ../src/Singly_Linked_List.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Singly_Linked_List.d" -MT"src/Singly_Linked_List.o" -o "src/Singly_Linked_List.o" "../src/Singly_Linked_List.c"
-../src/Singly_Linked_List.c: In function ‘delatbeg’:
-../src/Singly_Linked_List.c:187:9: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
-  187 |         display();
-      |         ^~~~~~~
-../src/Singly_Linked_List.c: At top level:
-../src/Singly_Linked_List.c:302:6: warning: conflicting types for ‘display’; have ‘void()’
-  302 | void display()
-      |      ^~~~~~~
-../src/Singly_Linked_List.c:187:9: note: previous implicit declaration of ‘display’ with type ‘void()’
-  187 |         display();
-      |         ^~~~~~~
-Finished building: ../src/Singly_Linked_List.c
- 
-Building target: Linked List
-Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Singly_Linked_List.o   
-Finished building target: Linked List
- 
-16:31:24 **** Incremental Build of configuration Debug for project Linked List ****
-make all 
-Building file: ../src/Singly_Linked_List.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Singly_Linked_List.d" -MT"src/Singly_Linked_List.o" -o "src/Singly_Linked_List.o" "../src/Singly_Linked_List.c"
-../src/Singly_Linked_List.c: In function ‘delatbeg’:
-../src/Singly_Linked_List.c:187:9: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
-  187 |         display();
-      |         ^~~~~~~
-../src/Singly_Linked_List.c: At top level:
-../src/Singly_Linked_List.c:302:6: warning: conflicting types for ‘display’; have ‘void()’
-  302 | void display()
-      |      ^~~~~~~
-../src/Singly_Linked_List.c:187:9: note: previous implicit declaration of ‘display’ with type ‘void()’
-  187 |         display();
-      |         ^~~~~~~
-Finished building: ../src/Singly_Linked_List.c
- 
-Building target: Linked List
-Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Singly_Linked_List.o   
-Finished building target: Linked List
- 
-16:31:31 **** Incremental Build of configuration Debug for project Linked List ****
-make all 
-make: Nothing to be done for 'all'.
-16:32:10 **** Incremental Build of configuration Debug for project Linked List ****
-make all 
-Building file: ../src/Singly_Linked_List.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Singly_Linked_List.d" -MT"src/Singly_Linked_List.o" -o "src/Singly_Linked_List.o" "../src/Singly_Linked_List.c"
-../src/Singly_Linked_List.c: In function ‘delatbeg’:
-../src/Singly_Linked_List.c:187:9: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
-  187 |         display();
-      |         ^~~~~~~
-../src/Singly_Linked_List.c: At top level:
-../src/Singly_Linked_List.c:302:6: warning: conflicting types for ‘display’; have ‘void()’
-  302 | void display()
-      |      ^~~~~~~
-../src/Singly_Linked_List.c:187:9: note: previous implicit declaration of ‘display’ with type ‘void()’
-  187 |         display();
-      |         ^~~~~~~
-Finished building: ../src/Singly_Linked_List.c
- 
-Building target: Linked List
-Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Singly_Linked_List.o   
-Finished building target: Linked List
- 
-16:32:31 **** Incremental Build of configuration Debug for project Linked List ****
-make all 
-Building file: ../src/Singly_Linked_List.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Singly_Linked_List.d" -MT"src/Singly_Linked_List.o" -o "src/Singly_Linked_List.o" "../src/Singly_Linked_List.c"
-../src/Singly_Linked_List.c: In function ‘delatbeg’:
-../src/Singly_Linked_List.c:187:9: warning: implicit declaration of function ‘display’ [-Wimplicit-function-declaration]
-  187 |         display();
-      |         ^~~~~~~
-../src/Singly_Linked_List.c: At top level:
-../src/Singly_Linked_List.c:302:6: warning: conflicting types for ‘display’; have ‘void()’
-  302 | void display()
-      |      ^~~~~~~
-../src/Singly_Linked_List.c:187:9: note: previous implicit declaration of ‘display’ with type ‘void()’
-  187 |         display();
-      |         ^~~~~~~
-Finished building: ../src/Singly_Linked_List.c
- 
-Building target: Linked List
-Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Singly_Linked_List.o   
+gcc  -o "Linked List" ./src/Doubly_Linked_List.o   
 Finished building target: Linked List
  

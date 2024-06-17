@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../src/Singly_Linked_List.c 
+../src/Doubly_Linked_List.c 
 
 C_DEPS += \
-./src/Singly_Linked_List.d 
+./src/Doubly_Linked_List.d 
 
 OBJS += \
-./src/Singly_Linked_List.o 
+./src/Doubly_Linked_List.o 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -25,7 +25,7 @@ src/%.o: ../src/%.c src/subdir.mk
 clean: clean-src
 
 clean-src:
-	-$(RM) ./src/Singly_Linked_List.d ./src/Singly_Linked_List.o
+	-$(RM) ./src/Doubly_Linked_List.d ./src/Doubly_Linked_List.o
 
 .PHONY: clean-src
 

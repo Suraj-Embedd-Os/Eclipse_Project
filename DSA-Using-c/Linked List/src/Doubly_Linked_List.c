@@ -12,191 +12,223 @@ struct Node
 
 struct Node *head = NULL;
 struct Node *tail = NULL;
-struct Node *temp;
 
-void create()
+void Display()
 {
-    int n;
-    head = NULL;
-    printf("How Many Elements You want to add: ");
-    scanf("%d", &n);
-    for (int i = 1; i <= n; i++)
-    {
-        struct Node *newNode = (struct Node *)malloc(sizeof(struct Node));
-        printf("Enter data for node %d of the linked list : ", i);
-        scanf("%d", &newNode->data);
+	if(head==NULL)
+		return;
 
-        newNode->prev = NULL;
-        newNode->next = NULL;
+	struct Node *temp=head;
 
-        if (head == NULL)
-        {
-            head = tail = newNode;
-        }
-        else
-        {
-            tail->next = newNode;
-            newNode->prev = tail;
-            tail = newNode;
-        }
-    }
+	while(temp)
+	{
+		printf("%d->",temp->data);
+		temp=temp->next;
+	}
+	printf("NULL\n");
 }
 
-void insertatbeg()
+struct Node * create_node(int data)
 {
-    int x;
-    printf("Insert at beginning: ");
-    scanf("%d", &x);
-    struct Node *ptr = (struct Node *)malloc(sizeof(struct Node));
-    ptr->data = x;
-    if (head == NULL)
-    {
-        ptr->next = NULL;
-        ptr->prev = NULL;
-        head = tail = ptr;
-    }
-    else
-    {
-        ptr->prev = NULL;
-        ptr->next = head;
-        head->prev = ptr;
-        head = ptr;
-    }
+	struct Node *new_node = (struct Node *)malloc(1*sizeof(struct Node));
+	if(new_node == NULL){
+		perror("unable to allocate heap \n");
+		return NULL;
+	}
+	new_node->next =new_node->prev= NULL;
+	new_node->data = data;
+
+	return new_node;
 }
 
-void insertatend()
+
+void create(int *arr,int num)
 {
-    int x;
-    printf("enter the value\n");
-    scanf("%d", &x);
-    struct Node *temp = (struct Node *)malloc(sizeof(struct Node));
-    temp->data = x;
-    if (tail == NULL)
-    {
-        temp->next = NULL;
-        temp->prev = NULL;
-        head = tail = temp;
-    }
-    else
-    {
-        temp->next = NULL;
-        temp->prev = tail;
-        tail->next = temp;
-        tail = temp;
-    }
+	for(int i=0;i<num;i++)
+	{
+		struct Node *new_node = create_node(arr[i]);
+		if(new_node == NULL){
+			perror("unable to allocate heap \n");
+			continue;
+		}
+
+		if(head == NULL)
+		{
+			head=tail=new_node;
+		}
+		else
+		{
+			new_node->prev=tail;
+			tail->next=new_node;
+			tail=new_node;
+		}
+	}
+	Display();
 }
 
-void insertpos()
+void insertatbeg(int data)
 {
-    temp = head;
-    int pos, i = 1, x, n;
-    printf("Enter the position to be inserted\n");
-    scanf("%d", &pos);
-    if (pos == 1)
-    {
-        insertatbeg();
-    }
-    else
-    {
-        struct Node *newNode = (struct Node *)malloc(sizeof(struct Node));
-        printf("Enter the data to be inserted at the end\n");
-        scanf("%d", &x);
-        newNode->data = x;
-        while (i < pos - 1)
-        {
-            temp = temp->next;
-            i++;
-        }
-        newNode->prev = temp;
-        newNode->next = temp->next;
-        temp->next = newNode;
-        newNode->next->prev = newNode;
-    }
+	struct Node *new_node = create_node(data);
+	if(new_node == NULL){
+		perror("unable to allocate heap \n");
+		return;
+	}
+
+	if(head == NULL)
+	{
+		head=tail=new_node;
+	}
+	else
+	{
+		head->prev=new_node;
+		new_node->next=head;
+		head=new_node;
+	}
+	Display();
+
+}
+
+void insertatend(int  data)
+{
+	struct Node *new_node = create_node(data);
+		if(new_node == NULL){
+			perror("unable to allocate heap \n");
+			return;
+		}
+
+		if(head == NULL)
+		{
+			head=tail=new_node;
+		}
+		else
+		{
+			new_node->prev=tail;
+			tail->next=new_node;
+			tail=new_node;
+		}
+		Display();
+}
+
+void insertpos(int data, int pos)
+{
+	if(head == NULL)
+		return;
+
+	struct Node *new_node = create_node(data);
+	if(new_node == NULL){
+		perror("unable to allocate heap \n");
+		return;
+	}
+
+	if(pos == 1)
+	{
+		new_node->next=head;
+		head->prev=new_node;
+		head=new_node;
+	}
+	else {
+	struct Node *curr=head;
+
+	for(int i=1 ; curr!=NULL && i<pos ; i++)
+	{
+		curr=curr->next;
+	}
+
+	if(curr != NULL)
+	{
+		curr->prev->next=new_node;
+		new_node->prev=curr->prev;
+		new_node->next = curr;
+		curr->prev=new_node;
+	}
+	else
+		printf("Invalid positions\n");
+
+	}
+
+	Display();
+
 }
 
 void delatbeg()
 {
-    struct Node *temp = (struct Node *)malloc(sizeof(struct Node));
-    if (head == NULL)
-    {
-        printf("list already empty\n");
-    }
-    else if (head->next == NULL)
-    {
-        temp = head;
-        head = tail = NULL;
-    }
-    else
-    {
-        temp = head;
-        head = head->next;
-        head->prev = NULL;
-    }
-    free(temp);
+	struct Node *curr=head;
+
+	head=head->next;
+	head->prev=NULL;
+
+	free(curr);
+	Display();
 }
 
 void delatend()
 {
-    struct Node *temp = (struct Node *)malloc(sizeof(struct Node));
-    if (tail == NULL)
-    {
-        printf("list already empty\n");
-    }
-    else if (tail->prev == NULL)
-    {
-        temp = tail;
-        head = tail = NULL;
-    }
-    else
-    {
-        temp = tail;
-        tail = tail->prev;
-        tail->next = NULL;
-    }
-    free(temp);
+	struct Node *curr=tail;
+	tail=tail->prev;
+	tail->next = NULL;
+
+	free(curr);
+	Display();
 }
 
-void delatpos()
+void delatpos(int pos)
 {
-    int pos, i = 1;
-    temp = head;
-    printf("Enter position to be deleted\n");
-    scanf("%d", &pos);
-    while (i < pos)
-    {
-        temp = temp->next;
-        i++;
-    }
-    temp->prev->next = temp->next;
-    temp->next->prev = temp->prev;
-    free(temp);
+	if(pos == 1)
+		delatbeg();
+	else
+	{
+		struct Node *curr=head;
+
+		for(int i=1;curr !=NULL && i<pos;i++)
+			curr=curr->next;
+
+		if(curr == tail)
+		{
+			tail=tail->prev;
+			tail->next = NULL;
+			free(curr);
+		}
+		else if(curr != NULL)
+		{
+			curr->prev->next=curr->next;
+			curr->next->prev=curr->prev;
+			free(curr);
+		}
+		else
+			printf("invalid positions\n");
+	}
+	Display();
 }
 
-void Display()
-{
-    printf("Displaying Linked List\n");
-    struct Node *temp = head;
-    while (temp->next != NULL)
-    {
-        printf("%d ", temp->data);
-        temp = temp->next;
-    }
-    printf("%d ", temp->data);
-}
+
 
 void reverse()
 {
-    printf("Displaying Reverse Linked List\n");
-    struct Node *temp = tail;
-    while (temp->prev != NULL)
-    {
-        printf("%d ", temp->data);
-        temp = temp->prev;
-    }
-    printf("%d ", temp->data);
+	if(head == NULL)
+		return;
+
+	struct Node *curr = head;
+	struct Node *prev = NULL;
+	struct Node *next = curr->next;
+
+	while(curr->next != NULL){
+		curr->prev=curr->next;
+		curr->next=prev;
+		prev=curr;
+		curr=next;
+		next=next->next;
+	}
+	curr->prev=curr->next;
+	curr->next=prev;
+
+	struct Node *temp = head;
+	head=tail;
+	tail=temp;
+	Display();
+
 }
 
-void get_length()
+int get_length()
 {
     int count = 0;
     struct Node *temp = head;
@@ -205,64 +237,18 @@ void get_length()
         count++;
         temp = temp->next;
     }
-    printf("Length of the Linked List is %d\n", count);
+    return count;
+
 }
 
 int main()
 {
-    int opt, value, loct;
-    create();
-    while (1)
-    {
-
-        printf("\nwhich operation do you want to perform?\n");
-        printf("1.Insert at beginning\n");
-        printf("2.Insert at end\n");
-        printf("3.Insert element at a position\n");
-        printf("4.Delete from beginning\n");
-        printf("5.Delete from end\n");
-        printf("6.Delete element at a position\n");
-        printf("7.Display\n");
-        printf("8.Reverse Linked List\n");
-        printf("9.Length of List\n");
-        printf("10.Exit\n");
-
-        scanf("%d", &opt);
-
-        switch (opt)
-        {
-        case 1:
-            insertatbeg();
-            break;
-        case 2:
-            insertatend();
-            break;
-        case 3:
-            insertpos();
-            break;
-        case 4:
-            delatbeg();
-            break;
-        case 5:
-            delatbeg();
-            break;
-        case 6:
-            delatpos();
-            break;
-        case 7:
-            Display();
-            break;
-        case 8:
-            reverse();
-            break;
-        case 9:
-            get_length();
-            break;
-        case 10:
-            exit(0);
-        default:
-            printf("Wrong Choice!!\n");
-        }
-    }
+	int arr[]={1,2,3,4,5};
+	create(arr,5);
+	//insertpos(11,6);
+	//delatpos(6);
+	//insertatbeg(14);
+	//insertatend(145);
+	reverse();
     return 0;
 }

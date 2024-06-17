@@ -41,11 +41,11 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
-					<fileInfo id="cdt.managedbuild.config.gnu.exe.debug.400037929.1995759843" name="Doubly_Circular_Linked_List.c" rcbsApplicability="disable" resourcePath="src/Doubly_Circular_Linked_List.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.35993934.1059696342">
-						<tool id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.35993934.1059696342" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.35993934"/>
+					<fileInfo id="cdt.managedbuild.config.gnu.exe.debug.400037929.1412076150" name="Circular_Linked_List.c" rcbsApplicability="disable" resourcePath="src/Circular_Linked_List.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.35993934.576348288">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.35993934.576348288" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.35993934"/>
 					</fileInfo>
 					<sourceEntries>
-						<entry excluding="Singly_Linked_List.c|Circular_Linked_List.c|Doubly_Linked_List.c|Linked List.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="Doubly_Linked_List.c|Singly_Linked_List.c|Doubly_Circular_Linked_List.c|Linked List.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>

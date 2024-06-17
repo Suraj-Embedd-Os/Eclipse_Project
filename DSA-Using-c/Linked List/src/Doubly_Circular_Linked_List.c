@@ -11,329 +11,171 @@ struct Node
 
 struct Node *head, *tail;
 
-void create()
+void display()
 {
-    int i, x;
-    printf("How Many Elements You want to add: ");
-    scanf("%d", &x);
-    for (i = 1; i <= x; i++)
-    {
-        struct Node *newNode = (struct Node *)malloc(sizeof(struct Node));
-        printf("Enter data for node %d of the linked list: ", i);
-        scanf("%d", &newNode->data);
+	if(head==NULL)
+		return;
+	struct Node * curr=head;
 
-        if (head == NULL)
-        {
-            head = tail = newNode;
-            head->next = head->prev = newNode;
-        }
-        else
-        {
-            tail->next = newNode;
-            newNode->prev = tail;
-            newNode->next = head;
-            head->prev = newNode;
-            tail = newNode;
-        }
-    }
+	do{
+		printf("%d-> ",curr->data);
+		curr=curr->next;
+
+	}while(curr != head);
+
+	printf("END\n");
+
 }
 
-void insertAtBeg()
+struct Node * create_node(int data)
 {
-    struct Node *newNode = (struct Node *)malloc(sizeof(struct Node));
-    printf("Enter data to be inserted: ");
-    scanf("%d", &newNode->data);
-    if (head == NULL)
-    {
-        head = tail = newNode;
-        newNode->next = newNode->prev = head;
-    }
-    else
-    {
-        newNode->next = head;
-        head->prev = newNode;
-        newNode->prev = tail;
-        tail->next = newNode;
-        head = newNode;
-    }
+	struct Node *new_node = (struct Node *)malloc(1*sizeof(struct Node));
+	if(new_node == NULL){
+		perror("unable to allocate heap \n");
+		return NULL;
+	}
+	new_node->next =new_node->prev= NULL;
+	new_node->data = data;
+
+	return new_node;
 }
 
-void insertAtEnd()
+void create(int *arr,int num)
 {
-    struct Node *newNode = (struct Node *)malloc(sizeof(struct Node));
-    printf("Enter data to be inserted: ");
-    scanf("%d", &newNode->data);
-    if (head == NULL)
-    {
-        head = tail = newNode;
-        newNode->next = newNode->prev = head;
-    }
-    else
-    {
-        newNode->prev = tail;
-        tail->next = newNode;
-        newNode->next = head;
-        head->prev = newNode;
-        tail = newNode;
-    }
+	for(int i=0;i<num;i++)
+	{
+		struct Node *new_node = create_node(arr[i]);
+		if(new_node == NULL){
+			perror("unable to allocate heap \n");
+			return ;
+		}
+
+		if(head == NULL)
+		{
+			new_node->next=new_node;
+			head=tail=new_node;
+		}
+		else{
+			new_node->next=tail->next;
+			new_node->prev=tail;
+			tail->next=new_node;
+			tail=new_node;
+		}
+	}
+	display();
 }
 
-void insertAtPos()
+void insertAtBeg(int data)
 {
-    int pos, i = 1;
-    struct Node *temp = head;
-    struct Node *newNode = (struct Node *)malloc(sizeof(struct Node));
-    printf("Enter the postion at which data is inserted: ");
-    scanf("%d", &pos);
+	struct Node *new_node = create_node(data);
+	if(new_node == NULL){
+		perror("unable to allocate heap \n");
+		return ;
+	}
 
-    if (pos == 1)
-    {
-        insertAtBeg();
-    }
-    else
-    {
-        printf("Enter the postion at which data is inserted: ");
-        scanf("%d", &newNode->data);
-        while (i < pos - 1)
-        {
-            temp = temp->next;
-            i++;
-        }
-        newNode->prev = temp;
-        newNode->next = temp->next;
-        temp->next->prev = newNode;
-        temp->next = newNode;
-    }
+	if(head == NULL){
+		new_node->next=new_node;
+		head=tail=new_node;
+	}
+	else{
+		new_node->next=head;
+		head->prev=new_node;
+		tail->next = new_node;
+		head=new_node;
+	}
+	display();
+}
+
+void insertAtEnd(int data)
+{
+	struct Node *new_node = create_node(data);
+	if(new_node == NULL){
+		perror("unable to allocate heap \n");
+		return ;
+	}
+
+	if(head == NULL){
+		new_node->next=new_node;
+		head=tail=new_node;
+	}
+	else{
+		new_node->prev=tail;
+		new_node->next=tail->next;
+		tail->next=new_node;
+		tail=new_node;
+	}
+	display();
+}
+
+void insertAtPos(int data ,int pos)
+{
+	if(head == NULL)
+		return;
+
+	struct Node *new_node = create_node(data);
+	if(new_node == NULL){
+		perror("unable to allocate heap \n");
+		return ;
+	}
+	struct Node *curr=head;
+	for(int i=0 ;i<pos ;i++)
+	{
+		if(head->next == head && pos == 1)
+		{
+			new_node->next=head;
+			head->prev=new_node;
+			tail->next = new_node;
+			head=new_node;
+			break;
+		}
+		else
+		{
+
+			if(i == pos-1){
+
+			}
+			curr=curr->next;
+		}
+	}
+	display();
 }
 
 void deleteAtBeg()
 {
-    struct Node *temp = head;
-    if (head == NULL)
-    {
-        printf("Linked List in Empty\n");
-    }
-    else if (head == tail)
-    {
-        head = tail = 0;
-        free(temp);
-    }
-    else
-    {
-        head = head->next;
-        head->prev = tail;
-        tail->next = head;
-        free(temp);
-    }
+
 }
 
 void deleteAtEnd()
 {
-    struct Node *temp = tail;
-    if (head == NULL)
-    {
-        printf("Linked List in Empty\n");
-    }
-    else if (head == tail)
-    {
-        head = tail = 0;
-        free(temp);
-    }
-    else
-    {
-        tail = tail->prev;
-        tail->next = head;
-        head->prev = tail;
-        free(temp);
-    }
 }
 
 void deleteAtPos()
 {
-    int pos, i = 0;
-    struct Node *temp = head;
 
-    printf("Enter position: \n");
-    scanf("%d", &pos);
-    if (pos == 1)
-    {
-        deleteAtBeg();
-    }
-    else
-    {
-        while (i < pos - 1)
-        {
-            temp = temp->next;
-            i++;
-        }
-        (temp->prev)->next = temp->next;
-        (temp->next)->prev = temp->prev;
-        if (temp->next == head)
-        {
-            tail = temp->prev;
-            free(temp);
-        }
-        else
-        {
-            free(temp);
-        }
-    }
 }
 
 void update()
 {
-    struct Node *temp = head;
-    int c, d;
-    printf("Enter the value to be updated: \n");
-    scanf("%d", &c);
-    printf("Enter the data:");
-    scanf("%d", &d);
 
-    while (temp->data != c)
-    {
-        temp = temp->next;
-    }
-    temp->data = d;
 }
 
 void updateAtPos()
 {
-    struct Node *temp = head;
-    int pos, i = 0, x;
-    printf("Enter position to be updated: \n");
-    scanf("%d", &pos);
-    printf("Enter the data: \n");
-    scanf("%d", &x);
-    while (i < pos - 1)
-    {
-        temp = temp->next;
-        i++;
-    }
-    temp->data = x;
+
 }
 
-void get_length()
-{
-    int count = 1;
-    struct Node *temp = head;
-    if (head == NULL)
-    {
-        printf("Linked List is empty\n");
-    }
-    else
-    {
-        while (temp != tail)
-        {
-            temp = temp->next;
-            count++;
-        }
-    }
-    printf("Length of Linked List is %d\n", count);
-}
+
 
 void search()
 {
-    int x, i = 1;
-    struct Node *newNode = (struct Node *)malloc(sizeof(struct Node));
-    newNode = tail->next;
-    if (newNode == NULL)
-    {
-        printf("Linked List is empty\n");
-    }
-    else
-    {
-        printf("Enter the data you want to search\n");
-        scanf("%d", &x);
-        while (newNode->data != x)
-        {
-            newNode = newNode->next;
-            i++;
-        }
-        printf("Node found at %d\n", i);
-    }
+
 }
 
-void display()
-{
-    struct Node *temp = head;
-    if (head == NULL)
-    {
-        printf("Linked List is Empty\n");
-    }
-    else
-    {
-        do
-        {
-            printf("%d ", temp->data);
-            temp = temp->next;
-        } while (temp != tail->next);
-    }
-    printf("\n");
-}
+
 int main()
 {
-    int opt;
-    while (1)
-    {
-        printf("\nwhich operation do you want to perform?\n");
-        printf("1.Create a Linked List\n");
-        printf("2.Display\n");
-        printf("3.Search\n");
-        printf("4.Count Nodes\n");
-        printf("5.Insert at Beginning\n");
-        printf("6.Insert at End\n");
-        printf("7.Insert at Position\n");
-        printf("8.Delete at Beginning\n");
-        printf("9.Delete at End\n");
-        printf("10.Delete at given Position\n");
-        printf("11.Update Element \n");
-        printf("12.Update Element at Position\n");
-        printf("13.Exit\n");
-        scanf("%d", &opt);
-
-        switch (opt)
-        {
-        case 1:
-            create();
-            break;
-        case 2:
-            display();
-            break;
-        case 3:
-            search();
-            break;
-        case 4:
-            get_length();
-            break;
-        case 5:
-            insertAtBeg();
-            break;
-        case 6:
-            insertAtEnd();
-            break;
-        case 7:
-            insertAtPos();
-            break;
-        case 8:
-            deleteAtBeg();
-            break;
-        case 9:
-            deleteAtEnd();
-            break;
-        case 10:
-            deleteAtPos();
-            break;
-        case 11:
-            update();
-            break;
-        case 12:
-            updateAtPos();
-            break;
-        case 13:
-            exit(0);
-        default:
-            printf("Unknown Choice !!\n");
-        }
-    }
+	int arr[]={1,2,3,4,5};
+	create(arr,5);
+	insertAtEnd(14);
     return 0;
 }

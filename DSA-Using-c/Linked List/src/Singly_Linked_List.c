@@ -318,7 +318,24 @@ void sort_list()
 
 void reverse()
 {
+	if(head->next == NULL)
+		return;
 
+	struct Node *curr=head;
+	struct Node * prev= NULL;
+	struct Node * next =curr->next;
+
+	while(curr->next != NULL)
+	{
+		curr->next = prev;
+		prev=curr;
+		curr=next;
+		next=next->next;
+	}
+
+	curr->next = prev;
+	head=curr;
+	display();
 }
 
 int get_length()
@@ -365,10 +382,11 @@ int main()
 	int arr[]={1,2,3,4,5};
 
 	create(arr,5);
-	display();
+	reverse();
+
 	//display();
 	//delatbeg();
 	//delatend();
-	delAtPos(5);
+	//delAtPos(5);
     return 0;
 }
