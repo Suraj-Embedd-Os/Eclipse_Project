@@ -1,170 +1,58 @@
-15:57:40 **** Clean-only build of configuration Debug for project Linked List ****
-make clean 
-rm -rf ./src/Doubly_Linked_List.d ./src/Doubly_Linked_List.o
-rm -rf Linked\\ List
- 
-15:57:40 **** Incremental Build of configuration Debug for project Linked List ****
+21:37:39 **** Incremental Build of configuration Debug for project OpencvProject ****
 make all 
-Building file: ../src/Doubly_Circular_Linked_List.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Doubly_Circular_Linked_List.d" -MT"src/Doubly_Circular_Linked_List.o" -o "src/Doubly_Circular_Linked_List.o" "../src/Doubly_Circular_Linked_List.c"
-Finished building: ../src/Doubly_Circular_Linked_List.c
+Building file: ../src/OpencvProject.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/include/opencv4 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/OpencvProject.d" -MT"src/OpencvProject.o" -o "src/OpencvProject.o" "../src/OpencvProject.cpp"
+../src/OpencvProject.cpp: In function ‘int main(int, char**)’:
+../src/OpencvProject.cpp:10:38: warning: passing NULL to non-pointer argument 2 of ‘cv::VideoCapture::VideoCapture(const String&, int)’ [-Wconversion-null]
+   10 |     cv::VideoCapture cap(argv[1],NULL);
+      |                                      ^
+In file included from /usr/include/opencv4/opencv2/highgui.hpp:51,
+                 from /usr/include/opencv4/opencv2/opencv.hpp:68,
+                 from ../src/OpencvProject.cpp:1:
+/usr/include/opencv4/opencv2/videoio.hpp:694:63: note:   declared here
+  694 |     CV_WRAP explicit VideoCapture(const String& filename, int apiPreference = CAP_ANY);
+      |                                                           ~~~~^~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/OpencvProject.cpp
  
-Building target: Linked List
-Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Doubly_Circular_Linked_List.o   
-Finished building target: Linked List
- 
-15:57:49 **** Incremental Build of configuration Debug for project Linked List ****
-make all 
-make: Nothing to be done for 'all'.
-15:58:16 **** Incremental Build of configuration Debug for project Linked List ****
-make all 
-Building file: ../src/Doubly_Circular_Linked_List.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Doubly_Circular_Linked_List.d" -MT"src/Doubly_Circular_Linked_List.o" -o "src/Doubly_Circular_Linked_List.o" "../src/Doubly_Circular_Linked_List.c"
-Finished building: ../src/Doubly_Circular_Linked_List.c
- 
-Building target: Linked List
-Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Doubly_Circular_Linked_List.o   
-Finished building target: Linked List
- 
-15:58:49 **** Incremental Build of configuration Debug for project Linked List ****
-make all 
-Building file: ../src/Doubly_Circular_Linked_List.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Doubly_Circular_Linked_List.d" -MT"src/Doubly_Circular_Linked_List.o" -o "src/Doubly_Circular_Linked_List.o" "../src/Doubly_Circular_Linked_List.c"
-Finished building: ../src/Doubly_Circular_Linked_List.c
- 
-Building target: Linked List
-Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Doubly_Circular_Linked_List.o   
-Finished building target: Linked List
- 
-16:08:52 **** Incremental Build of configuration Debug for project Linked List ****
-make all 
-Building file: ../src/Doubly_Circular_Linked_List.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Doubly_Circular_Linked_List.d" -MT"src/Doubly_Circular_Linked_List.o" -o "src/Doubly_Circular_Linked_List.o" "../src/Doubly_Circular_Linked_List.c"
-Finished building: ../src/Doubly_Circular_Linked_List.c
- 
-Building target: Linked List
-Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Doubly_Circular_Linked_List.o   
-Finished building target: Linked List
- 
-16:10:27 **** Incremental Build of configuration Debug for project Linked List ****
-make all 
-make: Nothing to be done for 'all'.
-16:16:35 **** Incremental Build of configuration Debug for project Linked List ****
-make all 
-Building file: ../src/Doubly_Circular_Linked_List.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Doubly_Circular_Linked_List.d" -MT"src/Doubly_Circular_Linked_List.o" -o "src/Doubly_Circular_Linked_List.o" "../src/Doubly_Circular_Linked_List.c"
-Finished building: ../src/Doubly_Circular_Linked_List.c
- 
-Building target: Linked List
-Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Doubly_Circular_Linked_List.o   
-Finished building target: Linked List
- 
-16:18:43 **** Incremental Build of configuration Debug for project Linked List ****
-make all 
-Building file: ../src/Doubly_Circular_Linked_List.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Doubly_Circular_Linked_List.d" -MT"src/Doubly_Circular_Linked_List.o" -o "src/Doubly_Circular_Linked_List.o" "../src/Doubly_Circular_Linked_List.c"
-../src/Doubly_Circular_Linked_List.c: In function ‘insertAtEnd’:
-../src/Doubly_Circular_Linked_List.c:107:18: error: expected ‘;’ before ‘}’ token
-  107 |         display()
-      |                  ^
-      |                  ;
-  108 | }
-      | ~                 
-make: *** [src/subdir.mk:20: src/Doubly_Circular_Linked_List.o] Error 1
+Building target: OpencvProject
+Invoking: GCC C++ Linker
+g++ -L/usr/lib/x86_64-linux-gnu -o "OpencvProject" ./src/OpencvProject.o    -lopencv_core -lopencv_imgcodecs -lopencv_highgui
+/usr/bin/ld: ./src/OpencvProject.o: in function `main':
+/home/suraj/Suraj/Eclipse_Project/DSA-Using-c/OpencvProject/Debug/../src/OpencvProject.cpp:10: undefined reference to `cv::VideoCapture::VideoCapture(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)'
+/usr/bin/ld: /home/suraj/Suraj/Eclipse_Project/DSA-Using-c/OpencvProject/Debug/../src/OpencvProject.cpp:11: undefined reference to `cv::VideoCapture::isOpened() const'
+/usr/bin/ld: /home/suraj/Suraj/Eclipse_Project/DSA-Using-c/OpencvProject/Debug/../src/OpencvProject.cpp:20: undefined reference to `cv::VideoCapture::read(cv::_OutputArray const&)'
+/usr/bin/ld: /home/suraj/Suraj/Eclipse_Project/DSA-Using-c/OpencvProject/Debug/../src/OpencvProject.cpp:33: undefined reference to `cv::VideoCapture::release()'
+/usr/bin/ld: /home/suraj/Suraj/Eclipse_Project/DSA-Using-c/OpencvProject/Debug/../src/OpencvProject.cpp:37: undefined reference to `cv::VideoCapture::~VideoCapture()'
+/usr/bin/ld: /home/suraj/Suraj/Eclipse_Project/DSA-Using-c/OpencvProject/Debug/../src/OpencvProject.cpp:37: undefined reference to `cv::VideoCapture::~VideoCapture()'
+/usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_global_cleanup@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_getinfo@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_cleanup@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_perform@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_global_init@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_perform@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_init@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_init@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_add_handle@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_remove_handle@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_addpart@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_version_info@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_name@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_filename@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_info_read@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_slist_free_all@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/x86_64-linux-gnu/libnetcdf.so.19: undefined reference to `curl_easy_strerror@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_setopt@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_slist_append@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_poll@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_version@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_setopt@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_data@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_free@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_easy_cleanup@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_init@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_mime_data_cb@CURL_OPENSSL_4'
+/usr/bin/ld: /lib/libgdal.so.30: undefined reference to `curl_multi_wait@CURL_OPENSSL_4'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:67: OpencvProject] Error 1
 "make all" terminated with exit code 2. Build might be incomplete.
-16:18:52 **** Incremental Build of configuration Debug for project Linked List ****
-make all 
-Building file: ../src/Doubly_Circular_Linked_List.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Doubly_Circular_Linked_List.d" -MT"src/Doubly_Circular_Linked_List.o" -o "src/Doubly_Circular_Linked_List.o" "../src/Doubly_Circular_Linked_List.c"
-Finished building: ../src/Doubly_Circular_Linked_List.c
- 
-Building target: Linked List
-Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Doubly_Circular_Linked_List.o   
-Finished building target: Linked List
- 
-15:13:00 **** Clean-only build of configuration Debug for project Linked List ****
-make clean 
-rm -rf ./src/Doubly_Circular_Linked_List.d ./src/Doubly_Circular_Linked_List.o
-rm -rf Linked\\ List
- 
-15:13:01 **** Build of configuration Debug for project Linked List ****
-make all 
-Building file: ../src/Doubly_Linked_List.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Doubly_Linked_List.d" -MT"src/Doubly_Linked_List.o" -o "src/Doubly_Linked_List.o" "../src/Doubly_Linked_List.c"
-../src/Doubly_Linked_List.c: In function ‘reverse’:
-../src/Doubly_Linked_List.c:210:22: warning: unused variable ‘temp’ [-Wunused-variable]
-  210 |         struct Node *temp = head;
-      |                      ^~~~
-Finished building: ../src/Doubly_Linked_List.c
- 
-Building target: Linked List
-Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Doubly_Linked_List.o   
-Finished building target: Linked List
- 
-15:13:39 **** Incremental Build of configuration Debug for project Linked List ****
-make all 
-Building file: ../src/Doubly_Linked_List.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Doubly_Linked_List.d" -MT"src/Doubly_Linked_List.o" -o "src/Doubly_Linked_List.o" "../src/Doubly_Linked_List.c"
-Finished building: ../src/Doubly_Linked_List.c
- 
-Building target: Linked List
-Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Doubly_Linked_List.o   
-Finished building target: Linked List
- 
-15:23:15 **** Incremental Build of configuration Debug for project Linked List ****
-make all 
-Building file: ../src/Doubly_Linked_List.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Doubly_Linked_List.d" -MT"src/Doubly_Linked_List.o" -o "src/Doubly_Linked_List.o" "../src/Doubly_Linked_List.c"
-../src/Doubly_Linked_List.c: In function ‘reverse’:
-../src/Doubly_Linked_List.c:214:25: warning: comparison between pointer and integer
-  214 |         while(curr-next != NULL){
-      |                         ^~
-Finished building: ../src/Doubly_Linked_List.c
- 
-Building target: Linked List
-Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Doubly_Linked_List.o   
-Finished building target: Linked List
- 
-15:23:36 **** Incremental Build of configuration Debug for project Linked List ****
-make all 
-Building file: ../src/Doubly_Linked_List.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Doubly_Linked_List.d" -MT"src/Doubly_Linked_List.o" -o "src/Doubly_Linked_List.o" "../src/Doubly_Linked_List.c"
-Finished building: ../src/Doubly_Linked_List.c
- 
-Building target: Linked List
-Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Doubly_Linked_List.o   
-Finished building target: Linked List
- 
-15:26:17 **** Incremental Build of configuration Debug for project Linked List ****
-make all 
-Building file: ../src/Doubly_Linked_List.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Doubly_Linked_List.d" -MT"src/Doubly_Linked_List.o" -o "src/Doubly_Linked_List.o" "../src/Doubly_Linked_List.c"
-Finished building: ../src/Doubly_Linked_List.c
- 
-Building target: Linked List
-Invoking: GCC C Linker
-gcc  -o "Linked List" ./src/Doubly_Linked_List.o   
-Finished building target: Linked List
- 

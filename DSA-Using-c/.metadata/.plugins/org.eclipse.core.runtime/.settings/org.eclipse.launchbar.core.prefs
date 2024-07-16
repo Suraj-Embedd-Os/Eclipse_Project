@@ -1,8 +1,12 @@
 LaunchTargetManager/configs/Linked\ List=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/tree=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:file_sort,org.eclipse.launchbar.core.descriptorType.default\:Linked List
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:file_sort,org.eclipse.launchbar.core.descriptorType.default\:Linked List,org.eclipse.launchbar.core.descriptorType.default\:Recursion,org.eclipse.launchbar.core.descriptorType.default\:tree
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:Linked\ List/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Linked\ List/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Recursion/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Recursion/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:tree/activeLaunchMode=debug
